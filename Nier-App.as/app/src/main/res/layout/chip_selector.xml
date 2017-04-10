@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/customborder2"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <ToggleButton
+        android:id="@+id/attack_button"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:checked="false"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:textOff="Attack"
+        android:textOn="Attack"
+        android:textSize="11sp" />
+
+    <ToggleButton
+        android:id="@+id/defense_button"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/attack_button"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:text="ToggleButton"
+        android:textOff="Defense"
+        android:textOn="Defense"
+        android:textSize="11sp" />
+
+    <ToggleButton
+        android:id="@+id/support_button"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/defense_button"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:text="ToggleButton"
+        android:textOff="Support"
+        android:textOn="Support"
+        android:textSize="11sp" />
+
+    <ToggleButton
+        android:id="@+id/hacking_button"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/support_button"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:text="ToggleButton"
+        android:textOff="Hacking"
+        android:textOn="Hacking"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/chip1"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/attack_button"
+        android:gravity="center"
+        android:textColor="@color/Gold" />
+
+    <TextView
+        android:id="@+id/chip2"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/attack_button"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/chip1"
+        android:gravity="center"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/chip3"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/attack_button"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/chip2"
+        android:gravity="center"
+        android:textColor="@color/Gold" />
+
+    <TextView
+        android:id="@+id/chip4"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/attack_button"
+        android:layout_toEndOf="@+id/attack_button"
+        android:gravity="center"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/chip5"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/attack_button"
+        android:layout_toEndOf="@+id/chip4"
+        android:gravity="center"
+        android:textColor="@color/Gold" />
+
+    <TextView
+        android:id="@+id/chip6"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/attack_button"
+        android:layout_toEndOf="@+id/chip5"
+        android:gravity="center"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/chip7"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/defense_button"
+        android:layout_toEndOf="@+id/defense_button"
+        android:gravity="center"
+        android:textColor="@color/Gold" />
+
+    <TextView
+        android:id="@+id/chip8"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/defense_button"
+        android:layout_toEndOf="@+id/chip7"
+        android:gravity="center"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/chip9"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/defense_button"
+        android:layout_toEndOf="@+id/chip8"
+        android:gravity="center"
+        android:textColor="@color/Gold" />
+
+    <TextView
+        android:id="@+id/chip10"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/support_button"
+        android:layout_toEndOf="@+id/support_button"
+        android:gravity="center"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/chip11"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/support_button"
+        android:layout_toEndOf="@+id/chip10"
+        android:gravity="center"
+        android:textColor="@color/Gold" />
+
+    <TextView
+        android:id="@+id/chip12"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/support_button"
+        android:layout_toEndOf="@+id/chip11"
+        android:gravity="center"
+        android:textColor="@color/White" />
+
+</RelativeLayout>
