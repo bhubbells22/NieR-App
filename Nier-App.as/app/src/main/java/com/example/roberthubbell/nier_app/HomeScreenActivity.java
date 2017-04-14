@@ -1,5 +1,6 @@
 package com.example.roberthubbell.nier_app;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.annotation.IdRes;
 import android.support.constraint.ConstraintLayout;
@@ -13,6 +14,7 @@ import android.view.ViewGroup;
 import android.webkit.WebHistoryItem;
 import android.widget.Button;
 import android.widget.PopupWindow;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
@@ -32,10 +34,7 @@ public class HomeScreenActivity extends AppCompatActivity {
     private Button info_button;
 
     //chip selector testing
-    public Button chip_button;
-    private PopupWindow popupWindow;
-    private LayoutInflater layoutInflater;
-    private ConstraintLayout homeScreenLayout;
+
 
 
 
@@ -55,35 +54,35 @@ public class HomeScreenActivity extends AppCompatActivity {
         info_button = (Button)findViewById(R.id.info_button);
 
         //chip selector testing
-        chip_button = (Button) findViewById(R.id.chip_button);
-        homeScreenLayout = (ConstraintLayout) findViewById(R.id.home_screen);
-        chip_button.setText("Select Chip");
 
-        chip_button.setOnClickListener(new View.OnClickListener(){
+
+        add_button.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View view) {
-                layoutInflater = (LayoutInflater) getApplicationContext().getSystemService(LAYOUT_INFLATER_SERVICE);
-                ViewGroup container = (ViewGroup) layoutInflater.inflate(R.layout.chip_selector, null);
+            public void onClick(View view){
+                Intent intent = new Intent(HomeScreenActivity.this, AddActivity.class);
+                startActivity(intent);
+            }
+        });
 
-                ChipSelector selector = new ChipSelector();
-                selector.ShowSelector(HomeScreenActivity.this, homeScreenLayout, container);
+        fuse_button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(HomeScreenActivity.this, FuseActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        info_button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(HomeScreenActivity.this, InfoActivity.class);
+                startActivity(intent);
             }
         });
 
         //end
 
 
-        add_button.setX(210);
-        add_button.setY(600);
-        fuse_button.setX(210);
-        fuse_button.setY(800);
-        info_button.setX(210);
-        info_button.setY(1000);
-
-
     }
 
-    public void updateButton(){
-        chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
-    }
 }

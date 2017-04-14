@@ -28,6 +28,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.roberthubbell.nier_app.AddActivity" />
+        <activity android:name="com.example.roberthubbell.nier_app.FuseActivity" />
+        <activity android:name="com.example.roberthubbell.nier_app.InfoActivity" />
     </application>
 
 </manifest>
