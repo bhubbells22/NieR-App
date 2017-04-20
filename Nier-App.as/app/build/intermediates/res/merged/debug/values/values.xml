@@ -99,6 +99,7 @@
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
     <color name="Black">#000000</color>
+    <color name="DarkGrey">#A9A9A9</color>
     <color name="Gold">#D4AF37</color>
     <color name="Green">#00ff00</color>
     <color name="White">#FFFFFF</color>
