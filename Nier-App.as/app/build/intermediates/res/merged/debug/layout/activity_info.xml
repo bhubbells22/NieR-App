@@ -28,6 +28,7 @@
         android:text="Back" />
 
     <TextView
+        android:textColor="@color/White"
         android:id="@+id/ChipDescrptionView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,10 +38,11 @@
         android:text="Chip Description" />
 
     <TextView
+        android:textColor="@color/White"
         android:id="@+id/MaxEffectView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="36dp"
         android:text="Max Effect"
         android:layout_below="@+id/ChipDescrptionView"
         android:layout_toStartOf="@+id/chip_button" />
@@ -56,13 +58,13 @@
         android:visibility="visible" />
 
     <TextView
+        android:textColor="@color/White"
         android:id="@+id/OptimalSetupView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/MaxEffectView"
-        android:layout_alignBottom="@+id/MaxEffectView"
-        android:layout_toEndOf="@+id/chip_button"
-        android:text="Optimal Setup" />
+        android:text="Optimal Setup"
+        android:layout_above="@+id/OptimalView"
+        android:layout_toEndOf="@+id/chip_button" />
 
     <View
         android:id="@+id/OptimalSetupSeperator"
@@ -79,28 +81,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/btn_dialog"
-        android:layout_marginTop="61dp"
+        android:layout_marginTop="34dp"
         android:layout_below="@+id/EnemyDescriptionView"
-        android:layout_toEndOf="@+id/back_button" />
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:id="@+id/LocationImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/LocationView"
-        android:layout_alignTop="@+id/EnemyImageView"
-        android:layout_marginStart="11dp"
-        app:srcCompat="@android:drawable/btn_dialog" />
+        app:srcCompat="@android:drawable/btn_dialog"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/EnemyImageView"
+        android:layout_marginBottom="39dp" />
 
     <TextView
+        android:textColor="@color/White"
         android:id="@+id/EnemyDescriptionView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enemy Description"
-        android:layout_marginTop="63dp"
-        android:layout_below="@+id/MaxEffectView"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="43dp" />
+        android:layout_below="@+id/OptimalView"
+        android:layout_toEndOf="@+id/MaxEffectView"
+        android:layout_marginTop="29dp" />
 
     <View
         android:id="@+id/EnemyDescriptionSeperator"
@@ -113,14 +115,14 @@
         android:visibility="visible" />
 
     <TextView
+        android:textColor="@color/White"
         android:id="@+id/LocationView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Location"
-        android:layout_alignBaseline="@+id/EnemyDescriptionView"
-        android:layout_alignBottom="@+id/EnemyDescriptionView"
-        android:layout_alignEnd="@+id/OptimalSetupView"
-        android:layout_marginEnd="16dp" />
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/EnemyImageView"
+        android:layout_centerHorizontal="true" />
 
     <View
         android:id="@+id/LocationImageSeperator"
@@ -133,19 +135,21 @@
         android:visibility="visible" />
 
     <TextView
+        android:textColor="@color/White"
         android:id="@+id/EffectView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="100%"
-        android:layout_below="@+id/MaxEffectView"
-        android:layout_alignStart="@+id/EnemyImageView" />
+        android:layout_toEndOf="@+id/back_button"
+        android:layout_below="@+id/MaxEffectView" />
 
     <TextView
+        android:textColor="@color/White"
         android:id="@+id/OptimalView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Level#(Quantity)"
-        android:layout_below="@+id/OptimalSetupView"
+        android:layout_alignTop="@+id/MaxEffectSeperator"
         android:layout_toEndOf="@+id/ChipDescrptionView" />
 
 </RelativeLayout>

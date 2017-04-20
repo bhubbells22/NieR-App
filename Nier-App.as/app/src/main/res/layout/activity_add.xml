@@ -140,14 +140,10 @@
         android:layout_toEndOf="@+id/level7" />
 
     <TextView
-<<<<<<< HEAD
-        android:id="@+id/ChipDescrptionView"
-=======
         android:id="@+id/size_text"
         android:text="size"
         android:textSize="40dp"
         android:textColor="@color/White"
->>>>>>> 596dd71aface27e1efd0782214fa24f87b71d864
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/level6"
