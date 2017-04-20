@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
+import com.example.roberthubbell.nier_app.database.DBFunctions;
+
 public class AddActivity extends AppCompatActivity {
 
     public Button chip_button;
