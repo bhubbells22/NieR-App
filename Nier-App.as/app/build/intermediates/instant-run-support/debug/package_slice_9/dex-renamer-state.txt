@@ -1,4 +1,4 @@
-#Fri Apr 14 14:06:17 PDT 2017
+#Tue Apr 18 15:23:37 PDT 2017
 base.0=/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9
 renamed.0=classes.dex
 file.0=/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex
