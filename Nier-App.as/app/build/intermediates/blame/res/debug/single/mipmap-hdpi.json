@@ -1,10 +1,19 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+=======
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+>>>>>>> 596dd71aface27e1efd0782214fa24f87b71d864
     }
 ]

@@ -1,5 +1,6 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
 ADDED from C:\Users\Justin Temp\Desktop\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from C:\Users\Justin Temp\Desktop\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:3:5-49
@@ -104,3 +105,109 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Justin Temp\.an
 		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Justin Temp\.android\build-cache\cd2fc2cc9870af229634e7884d685c61760d0669\output\AndroidManifest.xml:27:9-31
 	android:name
 		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Justin Temp\.android\build-cache\cd2fc2cc9870af229634e7884d685c61760d0669\output\AndroidManifest.xml:26:9-47
+=======
+ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/roberthubbell/.android/build-cache/834a6dcce13238b43a688e1e1d19b331003def98/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/roberthubbell/.android/build-cache/ed6ca4930832371961b5eaed7b430f392df7c7c2/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/roberthubbell/.android/build-cache/8e345e82da34fbd64670ad41790e5d0bee00776a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/roberthubbell/.android/build-cache/1fce94d616ac89cafecbf87f9f189045c4f9e918/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/roberthubbell/.android/build-cache/ce92802fbfb7bcd890f6a23a913b3d7e46901c6e/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/roberthubbell/.android/build-cache/58c0ca9409e68adbc0f79b6b57dae5ed462bccd4/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/roberthubbell/.android/build-cache/9311cfb29984473f6a889d3ec9b7e4a870f5e8a5/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:gridlayout-v7:25.3.1] /Users/roberthubbell/.android/build-cache/b9ab592d40b42ecbb208bbabbf37b0dfaf29a1a9/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/roberthubbell/.android/build-cache/4c8c46f1da539de11553ac99df9d4720622beadf/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/roberthubbell/.android/build-cache/a658aa8188ca313bbb820360678570cc702dfa45/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:11:9-54
+	android:allowBackup
+		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.example.roberthubbell.nier_app.HomeScreenActivity
+ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:14:19-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.example.roberthubbell.nier_app.AddActivity
+ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:21:9-49
+	android:name
+		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:21:19-46
+activity#com.example.roberthubbell.nier_app.FuseActivity
+ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:22:9-50
+	android:name
+		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:22:19-47
+activity#com.example.roberthubbell.nier_app.InfoActivity
+ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:23:9-59
+	android:name
+		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:23:19-47
+uses-sdk
+INJECTED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/roberthubbell/.android/build-cache/834a6dcce13238b43a688e1e1d19b331003def98/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/roberthubbell/.android/build-cache/ed6ca4930832371961b5eaed7b430f392df7c7c2/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/roberthubbell/.android/build-cache/8e345e82da34fbd64670ad41790e5d0bee00776a/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/roberthubbell/.android/build-cache/1fce94d616ac89cafecbf87f9f189045c4f9e918/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/roberthubbell/.android/build-cache/ce92802fbfb7bcd890f6a23a913b3d7e46901c6e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/roberthubbell/.android/build-cache/58c0ca9409e68adbc0f79b6b57dae5ed462bccd4/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/roberthubbell/.android/build-cache/9311cfb29984473f6a889d3ec9b7e4a870f5e8a5/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:gridlayout-v7:25.3.1] /Users/roberthubbell/.android/build-cache/b9ab592d40b42ecbb208bbabbf37b0dfaf29a1a9/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/roberthubbell/.android/build-cache/4c8c46f1da539de11553ac99df9d4720622beadf/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/roberthubbell/.android/build-cache/a658aa8188ca313bbb820360678570cc702dfa45/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/roberthubbell/.android/build-cache/834a6dcce13238b43a688e1e1d19b331003def98/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/roberthubbell/.android/build-cache/ed6ca4930832371961b5eaed7b430f392df7c7c2/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/roberthubbell/.android/build-cache/8e345e82da34fbd64670ad41790e5d0bee00776a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/roberthubbell/.android/build-cache/1fce94d616ac89cafecbf87f9f189045c4f9e918/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/roberthubbell/.android/build-cache/ce92802fbfb7bcd890f6a23a913b3d7e46901c6e/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/roberthubbell/.android/build-cache/58c0ca9409e68adbc0f79b6b57dae5ed462bccd4/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:gridlayout-v7:25.3.1] /Users/roberthubbell/.android/build-cache/b9ab592d40b42ecbb208bbabbf37b0dfaf29a1a9/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/roberthubbell/.android/build-cache/4c8c46f1da539de11553ac99df9d4720622beadf/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/roberthubbell/.android/build-cache/a658aa8188ca313bbb820360678570cc702dfa45/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/AndroidManifest.xml:26:9-47
+>>>>>>> 596dd71aface27e1efd0782214fa24f87b71d864

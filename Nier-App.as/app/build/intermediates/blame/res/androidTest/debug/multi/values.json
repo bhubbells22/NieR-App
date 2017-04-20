@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+=======
+        "outputFile": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+>>>>>>> 596dd71aface27e1efd0782214fa24f87b71d864
         "map": [
             {
                 "to": {
@@ -11,7 +15,11 @@
                     "endOffset": 96
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Justin Temp\\.android\\build-cache\\71127a3b1605f3aa005e294fe5b0b498fc44bbf6\\output\\res\\values\\values.xml",
+=======
+                    "file": "/Users/roberthubbell/.android/build-cache/838eb10311a2e80ee126ba997d5769563f0d1082/output/res/values/values.xml",
+>>>>>>> 596dd71aface27e1efd0782214fa24f87b71d864
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

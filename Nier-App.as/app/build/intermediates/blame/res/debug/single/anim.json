@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
         "source": "C:\\Users\\Justin Temp\\.android\\build-cache\\cd2fc2cc9870af229634e7884d685c61760d0669\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
@@ -38,5 +39,45 @@
     {
         "merged": "C:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
         "source": "C:\\Users\\Justin Temp\\.android\\build-cache\\cd2fc2cc9870af229634e7884d685c61760d0669\\output\\res\\anim\\abc_slide_out_top.xml"
+=======
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_popup_enter.xml"
+>>>>>>> 596dd71aface27e1efd0782214fa24f87b71d864
     }
 ]

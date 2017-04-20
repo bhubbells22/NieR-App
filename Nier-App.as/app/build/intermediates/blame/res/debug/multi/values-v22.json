@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+=======
+        "outputFile": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+>>>>>>> 596dd71aface27e1efd0782214fa24f87b71d864
         "map": [
             {
                 "to": {
@@ -11,7 +15,11 @@
                     "endOffset": 125
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Justin Temp\\.android\\build-cache\\cd2fc2cc9870af229634e7884d685c61760d0669\\output\\res\\values-v22\\values-v22.xml",
+=======
+                    "file": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/values-v22/values-v22.xml",
+>>>>>>> 596dd71aface27e1efd0782214fa24f87b71d864
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +38,11 @@
                     "endOffset": 212
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Justin Temp\\.android\\build-cache\\cd2fc2cc9870af229634e7884d685c61760d0669\\output\\res\\values-v22\\values-v22.xml",
+=======
+                    "file": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/values-v22/values-v22.xml",
+>>>>>>> 596dd71aface27e1efd0782214fa24f87b71d864
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -50,7 +62,11 @@
                     "endOffset": 548
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Justin Temp\\.android\\build-cache\\cd2fc2cc9870af229634e7884d685c61760d0669\\output\\res\\values-v22\\values-v22.xml",
+=======
+                    "file": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/values-v22/values-v22.xml",
+>>>>>>> 596dd71aface27e1efd0782214fa24f87b71d864
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -71,7 +87,11 @@
                     "endOffset": 896
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Justin Temp\\.android\\build-cache\\cd2fc2cc9870af229634e7884d685c61760d0669\\output\\res\\values-v22\\values-v22.xml",
+=======
+                    "file": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/values-v22/values-v22.xml",
+>>>>>>> 596dd71aface27e1efd0782214fa24f87b71d864
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
