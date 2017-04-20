@@ -2,21 +2,23 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/info_screen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/info_screen"
+    android:background="@color/Black"
     tools:context="com.example.roberthubbell.nier_app.InfoActivity">
 
     <Button
         android:id="@+id/chip_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
         android:text="Select Chip"
         tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="148dp"
-        android:layout_marginTop="32dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        tools:layout_editor_absoluteY="148dp" />
+
     <Button
         android:id="@+id/back_button"
         android:layout_width="wrap_content"
@@ -26,11 +28,124 @@
         android:text="Back" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/ChipDescrptionView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/chip_button"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="96dp"
-        android:text="Info (remove me)" />
+        android:layout_marginTop="51dp"
+        android:text="Chip Description" />
+
+    <TextView
+        android:id="@+id/MaxEffectView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="Max Effect"
+        android:layout_below="@+id/ChipDescrptionView"
+        android:layout_toStartOf="@+id/chip_button" />
+
+    <View
+        android:id="@+id/MaxEffectSeperator"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_alignBottom="@+id/MaxEffectView"
+        android:layout_alignLeft="@+id/MaxEffectView"
+        android:layout_alignRight="@+id/MaxEffectView"
+        android:background="#c0c0c0"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/OptimalSetupView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/MaxEffectView"
+        android:layout_alignBottom="@+id/MaxEffectView"
+        android:layout_toEndOf="@+id/chip_button"
+        android:text="Optimal Setup" />
+
+    <View
+        android:id="@+id/OptimalSetupSeperator"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_alignBottom="@+id/OptimalSetupView"
+        android:layout_alignLeft="@+id/OptimalSetupView"
+        android:layout_alignRight="@+id/OptimalSetupView"
+        android:background="#c0c0c0"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/EnemyImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_dialog"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/EnemyDescriptionView"
+        android:layout_toEndOf="@+id/back_button" />
+
+    <ImageView
+        android:id="@+id/LocationImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/LocationView"
+        android:layout_alignTop="@+id/EnemyImageView"
+        android:layout_marginStart="11dp"
+        app:srcCompat="@android:drawable/btn_dialog" />
+
+    <TextView
+        android:id="@+id/EnemyDescriptionView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enemy Description"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/MaxEffectView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp" />
+
+    <View
+        android:id="@+id/EnemyDescriptionSeperator"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_alignBottom="@+id/EnemyDescriptionView"
+        android:layout_alignLeft="@+id/EnemyDescriptionView"
+        android:layout_alignRight="@+id/EnemyDescriptionView"
+        android:background="#c0c0c0"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/LocationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:layout_alignBaseline="@+id/EnemyDescriptionView"
+        android:layout_alignBottom="@+id/EnemyDescriptionView"
+        android:layout_alignEnd="@+id/OptimalSetupView"
+        android:layout_marginEnd="16dp" />
+
+    <View
+        android:id="@+id/LocationImageSeperator"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_alignBottom="@+id/LocationView"
+        android:layout_alignLeft="@+id/LocationView"
+        android:layout_alignRight="@+id/LocationView"
+        android:background="#c0c0c0"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/EffectView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100%"
+        android:layout_below="@+id/MaxEffectView"
+        android:layout_alignStart="@+id/EnemyImageView" />
+
+    <TextView
+        android:id="@+id/OptimalView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level#(Quantity)"
+        android:layout_below="@+id/OptimalSetupView"
+        android:layout_toEndOf="@+id/ChipDescrptionView" />
+
 </RelativeLayout>
