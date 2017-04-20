@@ -577,6 +577,7 @@ public class ChipSelector {
             for(int i = chips_in_category+1; i<13; i++){
                 chips[i].setText("");
             }
+
         }
         else if(MyProperties.getInstance().chip_category == 2) {
             int chips_in_category = 10;

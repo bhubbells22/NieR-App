@@ -18,6 +18,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
+import com.example.roberthubbell.nier_app.database.DBFunctions;
 import com.example.roberthubbell.nier_app.network.GetChips;
 
 import java.io.BufferedReader;
@@ -44,7 +45,6 @@ public class HomeScreenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
-
         GetChips task = new GetChips();
         task.execute();
 

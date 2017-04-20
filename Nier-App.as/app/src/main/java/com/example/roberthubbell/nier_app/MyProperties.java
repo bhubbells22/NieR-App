@@ -10,6 +10,9 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import com.example.roberthubbell.nier_app.database.DBFunctions;
+import com.example.roberthubbell.nier_app.database.DBHandler;
+import com.example.roberthubbell.nier_app.database.DBFunctions;
 import com.squareup.okhttp.HttpUrl;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
@@ -25,7 +28,7 @@ public class MyProperties {
     public int chip_id = 0;
     public int chip_category = 1;
     public String[] chips;
-
+    public static DBHandler database;
 
     public static synchronized MyProperties getInstance(){
         if(null == mInstance){
@@ -33,5 +36,11 @@ public class MyProperties {
         }
         return mInstance;
     }
+
+    public static String getChip(){
+        String name = database.getChip(0).getName();
+        return name;
+    }
+
 
 }

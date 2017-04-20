@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import java.sql.BatchUpdateException;
 
+import com.example.roberthubbell.nier_app.database.DBFunctions;
+
 public class AddActivity extends AppCompatActivity {
 
     public Button chip_button;
