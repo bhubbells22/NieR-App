@@ -31,6 +31,9 @@
         <activity android:name="com.example.roberthubbell.nier_app.AddActivity" />
         <activity android:name="com.example.roberthubbell.nier_app.FuseActivity" />
         <activity android:name="com.example.roberthubbell.nier_app.InfoActivity" />
+        <activity android:name="com.example.roberthubbell.nier_app.ListView" />
+        <activity android:name="com.example.roberthubbell.nier_app.test" />
+        <activity android:name="com.example.roberthubbell.nier_app.TestActivity" />
     </application>
 
 </manifest>

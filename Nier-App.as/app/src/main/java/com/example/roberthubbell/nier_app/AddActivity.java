@@ -3,16 +3,11 @@ package com.example.roberthubbell.nier_app;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
-import java.sql.BatchUpdateException;
-
-import com.example.roberthubbell.nier_app.database.DBFunctions;
 
 public class AddActivity extends AppCompatActivity {
 
