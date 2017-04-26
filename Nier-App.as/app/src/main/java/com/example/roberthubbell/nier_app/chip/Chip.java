@@ -27,6 +27,7 @@ public class Chip {
         this.level=0;
         this.size=0;
         this.count=0;
+        this.context = context;
 
         //Open database to get rest of elements
         DatabaseAccess databaseAccess = DatabaseAccess.getInstance(context);
@@ -77,7 +78,7 @@ public class Chip {
 
     }
 
-    public void increaseCount(Context context){
+    public void increaseCount(){
         //Increase the number of chips a user has
         DatabaseAccess databaseAccess = DatabaseAccess.getInstance(context);
         databaseAccess.open();
@@ -93,7 +94,7 @@ public class Chip {
 
     }
 
-    public boolean decreaseCount(Context context){
+    public boolean decreaseCount(){
         //Decrease the number of chips a user has
         //Deletes the chip and returns "true" if the chip is empty
         DatabaseAccess databaseAccess = DatabaseAccess.getInstance(context);
@@ -113,7 +114,7 @@ public class Chip {
 
     }
 
-    public boolean inDb(Context context){
+    public boolean inDb(){
         DatabaseAccess databaseAccess = DatabaseAccess.getInstance(context);
         databaseAccess.open();
         if(databaseAccess.hasChip(id, level, size)){
