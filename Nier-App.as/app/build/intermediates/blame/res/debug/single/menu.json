@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/menu/activity_fuse_drawer_drawer.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/menu/activity_fuse_drawer_drawer.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/menu/fuse_drawer.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/menu/fuse_drawer.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/menu/add_drawer.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/menu/add_drawer.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/menu/info_drawer.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/menu/info_drawer.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/menu/activity_add_drawer_drawer.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/menu/activity_add_drawer_drawer.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/menu/activity_info_drawer_drawer.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/menu/activity_info_drawer_drawer.xml"
+    }
+]

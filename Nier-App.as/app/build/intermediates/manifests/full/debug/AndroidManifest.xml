@@ -34,6 +34,18 @@
         <activity android:name="com.example.roberthubbell.nier_app.ListView" />
         <activity android:name="com.example.roberthubbell.nier_app.test" />
         <activity android:name="com.example.roberthubbell.nier_app.TestActivity" />
+        <activity
+            android:name="com.example.roberthubbell.nier_app.AddDrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.roberthubbell.nier_app.FuseDrawerActivity"
+            android:label="@string/title_activity_fuse_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.roberthubbell.nier_app.InfoDrawerActivity"
+            android:label="@string/title_activity_info_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
