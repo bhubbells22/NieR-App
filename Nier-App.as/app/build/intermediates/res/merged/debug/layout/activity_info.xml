@@ -19,14 +19,6 @@
         tools:layout_editor_absoluteX="141dp"
         tools:layout_editor_absoluteY="148dp" />
 
-    <Button
-        android:id="@+id/back_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:text="Back" />
-
     <TextView
         android:textColor="@color/White"
         android:id="@+id/ChipDescrptionView"
@@ -140,8 +132,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="100%"
-        android:layout_toEndOf="@+id/back_button"
-        android:layout_below="@+id/MaxEffectView" />
+        android:layout_below="@+id/MaxEffectView"
+        android:layout_alignEnd="@+id/MaxEffectView"
+        android:layout_marginEnd="17dp" />
 
     <TextView
         android:textColor="@color/White"
@@ -151,5 +144,16 @@
         android:text="Level#(Quantity)"
         android:layout_alignTop="@+id/MaxEffectSeperator"
         android:layout_toEndOf="@+id/ChipDescrptionView" />
+
+    <Button
+        android:id="@+id/phantom_chip_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Chip"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="148dp"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

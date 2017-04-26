@@ -17,7 +17,6 @@ import com.example.roberthubbell.nier_app.database.DBFunctions;
 public class AddActivity extends AppCompatActivity {
 
     public Button chip_button;
-    public Button back_button;
     public Button add_button;
     public Button remove_button;
     public Button phantom_button;
@@ -50,7 +49,6 @@ public class AddActivity extends AppCompatActivity {
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
         phantom_button = (Button) findViewById(R.id.phantom_chip_button);
         phantom_button.setVisibility(View.INVISIBLE);
-        back_button = (Button) findViewById(R.id.back_button);
         add_button = (Button) findViewById(R.id.add_button);
         remove_button = (Button) findViewById(R.id.remove_button);
         layout = (RelativeLayout) findViewById(R.id.add_screen);
@@ -63,14 +61,6 @@ public class AddActivity extends AppCompatActivity {
 
                 ChipSelector selector = new ChipSelector();
                 selector.ShowSelector(AddActivity.this, layout, container);
-            }
-        });
-
-        back_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                finish();
             }
         });
 

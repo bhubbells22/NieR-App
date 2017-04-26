@@ -11,7 +11,6 @@ import android.widget.RelativeLayout;
 public class InfoActivity extends AppCompatActivity {
 
     public Button chip_button;
-    public Button back_button;
     private LayoutInflater layoutInflater;
     private RelativeLayout layout;
 
@@ -21,7 +20,6 @@ public class InfoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_info);
         chip_button = (Button) findViewById(R.id.chip_button);
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
-        back_button = (Button) findViewById(R.id.back_button);
         layout = (RelativeLayout) findViewById(R.id.info_screen);
 
         chip_button.setOnClickListener(new View.OnClickListener(){
@@ -32,14 +30,6 @@ public class InfoActivity extends AppCompatActivity {
 
                 ChipSelector selector = new ChipSelector();
                 selector.ShowSelector(InfoActivity.this, layout, container);
-            }
-        });
-
-        back_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                finish();
             }
         });
     }
