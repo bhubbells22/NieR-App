@@ -11,7 +11,10 @@ public class MyProperties {
 
     public int chip_id = 1;
     public int chip_category = 1;
-    public String[] chips;
+    public String[] chips = {"Select Chip", "Charge Attack", "Counter", "Critical Up", "Down-Attack Up", "Last Stand", "Ranged Attack Up", "Shock Wave", "Weapon Attack Up",
+                            "Anti Chain Damage", "Auto-Heal", "Damage Absorb", "Deadly Heal", "Max HP Up", "Melee Defense Up", "Offensive Heal", "Ranged Defense",
+                            "Reset", "Resilience", "Auto-Use Item", "Drop Rate Up", "EXP Gain Up", "Evade Range Up", "Fast Cooldown", "Moving Speed Up", "Overclock",
+                            "Taunt Up", "Vengeance", "Combust", "Heal Drops Up", "Hijack Boost", "Stun"};
 
     public static synchronized MyProperties getInstance(){
         if(null == mInstance){

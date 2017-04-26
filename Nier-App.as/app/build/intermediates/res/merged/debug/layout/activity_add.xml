@@ -183,4 +183,70 @@
         android:layout_below="@+id/size2"
         android:layout_alignStart="@+id/level3" />
 
+    <TextView
+        android:id="@+id/chipView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White"
+        android:text="TextView"
+        android:layout_below="@+id/chipView5"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/size5"
+        android:layout_alignStart="@+id/chipView5" />
+
+    <TextView
+        android:id="@+id/chipView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/size5"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/chipView4"
+        android:layout_below="@+id/chipView4"
+        android:text="TextView"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/chipView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/size2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/chipView3"
+        android:layout_below="@+id/chipView3"
+        android:text="TextView"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/chipView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/level8"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/chipView2"
+        android:layout_below="@+id/chipView2"
+        android:text="TextView"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/chipView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/level4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/chipView1"
+        android:layout_below="@+id/chipView1"
+        android:text="TextView"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/chipView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/level4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/level_text"
+        android:layout_toEndOf="@+id/chip_button"
+        android:text="TextView"
+        android:textColor="@color/White" />
+
 </RelativeLayout>

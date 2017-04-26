@@ -1,9 +1,7 @@
 package com.example.roberthubbell.nier_app;
 
 import android.graphics.Color;
-import android.os.Bundle;
 import android.support.constraint.ConstraintLayout;
-import android.text.Layout;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -14,8 +12,6 @@ import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.ToggleButton;
-
-import static android.content.Context.LAYOUT_INFLATER_SERVICE;
 
 /**
  * Created by Brandon on 4/12/2017.

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Sat Apr 22 00:22:45 PDT 2017
 base.0=C\:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_657e447b3e4f931cfddd20d4acd3da5bc1d918d3
 renamed.1=classes.dex
@@ -8,6 +9,9 @@ base.1=C\:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\ap
 file.0=C\:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_657e447b3e4f931cfddd20d4acd3da5bc1d918d3\\classes.dex
 =======
 #Tue Apr 25 17:22:04 PDT 2017
+=======
+#Tue Apr 25 21:16:57 PDT 2017
+>>>>>>> 11163a89088c242e6f78fb3f589264e90aea0c09
 base.0=C\:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
