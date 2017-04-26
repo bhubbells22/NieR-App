@@ -21,7 +21,7 @@
 
     <TextView
         android:textColor="@color/White"
-        android:id="@+id/ChipDescrptionView"
+        android:id="@+id/ChipDescriptionView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/chip_button"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:text="Max Effect"
-        android:layout_below="@+id/ChipDescrptionView"
+        android:layout_below="@+id/ChipDescriptionView"
         android:layout_toStartOf="@+id/chip_button" />
 
     <View
@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/btn_dialog"
         android:layout_marginTop="34dp"
-        android:layout_below="@+id/EnemyDescriptionView"
+        android:layout_below="@+id/EnemyNameView"
         android:layout_centerHorizontal="true" />
 
     <ImageView
@@ -87,22 +87,22 @@
         android:layout_marginBottom="39dp" />
 
     <TextView
-        android:textColor="@color/White"
-        android:id="@+id/EnemyDescriptionView"
+        android:id="@+id/EnemyNameView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enemy Description"
         android:layout_below="@+id/OptimalView"
+        android:layout_marginTop="29dp"
         android:layout_toEndOf="@+id/MaxEffectView"
-        android:layout_marginTop="29dp" />
+        android:text="Enemy Name"
+        android:textColor="@color/White" />
 
     <View
         android:id="@+id/EnemyDescriptionSeperator"
         android:layout_width="fill_parent"
         android:layout_height="2dip"
-        android:layout_alignBottom="@+id/EnemyDescriptionView"
-        android:layout_alignLeft="@+id/EnemyDescriptionView"
-        android:layout_alignRight="@+id/EnemyDescriptionView"
+        android:layout_alignBottom="@+id/EnemyNameView"
+        android:layout_alignLeft="@+id/EnemyNameView"
+        android:layout_alignRight="@+id/EnemyNameView"
         android:background="#c0c0c0"
         android:visibility="visible" />
 
@@ -143,7 +143,7 @@
         android:layout_height="wrap_content"
         android:text="Level#(Quantity)"
         android:layout_alignTop="@+id/MaxEffectSeperator"
-        android:layout_toEndOf="@+id/ChipDescrptionView" />
+        android:layout_toEndOf="@+id/ChipDescriptionView" />
 
     <Button
         android:id="@+id/phantom_chip_button"

@@ -7,12 +7,25 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+import com.example.roberthubbell.nier_app.chip.Chip;
+
+import org.w3c.dom.Text;
 
 public class InfoActivity extends AppCompatActivity {
 
     public Button chip_button;
     private LayoutInflater layoutInflater;
     private RelativeLayout layout;
+
+    private TextView chipDescription;
+    private TextView maxEffect;
+    private TextView optimalSetup;
+    private TextView enemyName;
+
+    private Chip chip;
+    private Chip test;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +34,11 @@ public class InfoActivity extends AppCompatActivity {
         chip_button = (Button) findViewById(R.id.chip_button);
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
         layout = (RelativeLayout) findViewById(R.id.info_screen);
+
+        chipDescription = (TextView) findViewById(R.id.ChipDescriptionView);
+        maxEffect = (TextView) findViewById(R.id.MaxEffectView);
+        optimalSetup = (TextView) findViewById(R.id.OptimalSetupView);
+        enemyName = (TextView) findViewById(R.id.EnemyNameView);
 
         chip_button.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -32,9 +50,29 @@ public class InfoActivity extends AppCompatActivity {
                 selector.ShowSelector(InfoActivity.this, layout, container);
             }
         });
+<<<<<<< HEAD
+=======
+
+        back_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                finish();
+            }
+        });
+        test = new Chip(this, 1, 0, 4);
+        updateButton();
+>>>>>>> 8c78276713d6b582b86a9730b14b730043b577c9
     }
 
     public void updateButton(){
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
+        chip = new Chip(this, MyProperties.getInstance().chip_id);
+        chipDescription.setText(chip.getDescription());
+        enemyName.setText(Integer.toString(test.getCount()));
+
+
     }
+
+
 }
