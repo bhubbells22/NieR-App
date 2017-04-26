@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
-        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\drawable-v23\\abc_control_background_material.xml"
-    },
-    {
-        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
-        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/drawable-v23/abc_control_background_material.xml"
+        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\drawable-v23\\abc_control_background_material.xml"
     }
 ]

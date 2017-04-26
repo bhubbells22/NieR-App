@@ -17,6 +17,8 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.example.roberthubbell.nier_app.chip.Chip;
+
 public class AddDrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -41,6 +43,17 @@ public class AddDrawerActivity extends AppCompatActivity
     public Button size3;
     public Button size4;
     public Button size5;
+
+    public TextView chip1;
+    public TextView chip2;
+    public TextView chip3;
+    public TextView chip4;
+    public TextView chip5;
+    public TextView chip6;
+
+
+    private int level;
+    private int size;
 
     private LayoutInflater layoutInflater;
     private RelativeLayout layout;
@@ -68,6 +81,14 @@ public class AddDrawerActivity extends AppCompatActivity
         add_button = (Button) findViewById(R.id.add_button);
         remove_button = (Button) findViewById(R.id.remove_button);
         layout = (RelativeLayout) findViewById(R.id.add_screen);
+        chip1 = (TextView) findViewById(R.id.chipView1);
+        chip2 = (TextView) findViewById(R.id.chipView2);
+        chip3 = (TextView) findViewById(R.id.chipView3);
+        chip4 = (TextView) findViewById(R.id.chipView4);
+        chip5 = (TextView) findViewById(R.id.chipView5);
+        chip6 = (TextView) findViewById(R.id.chipView6);
+
+        clearText();
 
         chip_button.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -129,6 +150,9 @@ public class AddDrawerActivity extends AppCompatActivity
                 size4.setText("8");
                 size5.setVisibility(View.VISIBLE);
                 size5.setText("9");
+                level = 0;
+                size = 0; //unselect a size
+                writeChips();
             }
         });
 
@@ -147,6 +171,9 @@ public class AddDrawerActivity extends AppCompatActivity
                 size4.setVisibility(View.VISIBLE);
                 size4.setText("9");
                 size5.setVisibility(View.GONE);
+                level = 1;
+                size = 0; //unselect a size
+                writeChips();
             }
         });
 
@@ -164,6 +191,9 @@ public class AddDrawerActivity extends AppCompatActivity
                 size4.setVisibility(View.VISIBLE);
                 size4.setText("9");
                 size5.setVisibility(View.GONE);
+                level = 2;
+                size = 0; //unselect a size
+                writeChips();
             }
         });
 
@@ -181,6 +211,9 @@ public class AddDrawerActivity extends AppCompatActivity
                 size4.setText("10");
                 size4.setVisibility(View.VISIBLE);
                 size5.setVisibility(View.GONE);
+                level = 3;
+                size = 0; //unselect a size
+                writeChips();
             }
         });
 
@@ -197,6 +230,9 @@ public class AddDrawerActivity extends AppCompatActivity
                 size3.setVisibility(View.GONE);
                 size4.setVisibility(View.GONE);
                 size5.setVisibility(View.GONE);
+                level = 4;
+                size = 0; //unselect a size
+                writeChips();
             }
         });
 
@@ -213,6 +249,9 @@ public class AddDrawerActivity extends AppCompatActivity
                 size3.setVisibility(View.GONE);
                 size4.setVisibility(View.GONE);
                 size5.setVisibility(View.GONE);
+                level = 5;
+                size = 0; //unselect a size
+                writeChips();
             }
         });
 
@@ -228,6 +267,9 @@ public class AddDrawerActivity extends AppCompatActivity
                 size3.setVisibility(View.GONE);
                 size4.setVisibility(View.GONE);
                 size5.setVisibility(View.GONE);
+                level = 6;
+                size = 0; //unselect a size
+                writeChips();
             }
         });
 
@@ -243,6 +285,9 @@ public class AddDrawerActivity extends AppCompatActivity
                 size3.setVisibility(View.GONE);
                 size4.setVisibility(View.GONE);
                 size5.setVisibility(View.GONE);
+                level = 7;
+                size = 0; //unselect a size
+                writeChips();
             }
         });
 
@@ -257,6 +302,121 @@ public class AddDrawerActivity extends AppCompatActivity
                 size3.setVisibility(View.GONE);
                 size4.setVisibility(View.GONE);
                 size5.setVisibility(View.GONE);
+                level = 8;
+                size = 0; //unselect a size
+                writeChips();
+            }
+        });
+
+        //size buttons
+
+        size0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (level == 0)
+                    size = 4;
+                else if (level == 1)
+                    size = 5;
+                else if (level == 2)
+                    size = 6;
+                else if (level == 3)
+                    size = 7;
+                else if (level == 4)
+                    size = 9;
+                else if (level == 5)
+                    size = 11;
+                else if (level == 6)
+                    size = 14;
+                else if (level == 7)
+                    size = 17;
+            }
+        });
+
+        size1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (level == 0)
+                    size = 5;
+                else if (level == 1)
+                    size = 6;
+                else if (level == 2)
+                    size = 7;
+                else if (level == 3)
+                    size = 8;
+                else if (level == 4)
+                    size = 10;
+                else if (level == 5)
+                    size = 12;
+                else if (level == 6)
+                    size = 15;
+                else if (level == 7)
+                    size = 18;
+                else if (level == 8)
+                    size = 21;
+            }
+        });
+
+        size2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (level == 0)
+                    size = 6;
+                else if (level == 1)
+                    size = 7;
+                else if (level == 2)
+                    size = 8;
+                else if (level == 3)
+                    size = 9;
+                else if (level == 4)
+                    size = 11;
+                else if (level == 5)
+                    size = 13;
+            }
+        });
+
+        size3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (level == 0)
+                    size = 7;
+                else if (level == 1)
+                    size = 8;
+            }
+        });
+
+        size4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (level == 0)
+                    size = 8;
+                else if (level == 1)
+                    size = 9;
+                else if (level == 2)
+                    size = 9;
+                else if (level == 3)
+                    size = 10;
+            }
+        });
+
+        size5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (level == 0)
+                    size = 9;
+            }
+        });
+
+        add_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                increase();
+            }
+        });
+
+        remove_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                decrease();
             }
         });
 
@@ -265,6 +425,120 @@ public class AddDrawerActivity extends AppCompatActivity
 
     public void updateButton(){
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
+        unstage();
+    }
+
+    public void unstage(){
+        level = 0;
+        size = 0;
+        size0.setVisibility(View.GONE);
+        size1.setVisibility(View.GONE);
+        size2.setVisibility(View.GONE);
+        size3.setVisibility(View.GONE);
+        size4.setVisibility(View.GONE);
+        size5.setVisibility(View.GONE);
+
+        clearText();
+
+    }
+
+    public void clearText(){
+        chip1.setText("");
+        chip2.setText("");
+        chip3.setText("");
+        chip4.setText("");
+        chip5.setText("");
+        chip6.setText("");
+    }
+
+    public void writeChips(){
+
+        clearText();
+
+        int arraySize = 0;
+        int intialChipSize = 0;
+
+        if (level == 0) {
+            arraySize = 6;
+            intialChipSize = 4;
+        }
+        else if (level == 1) {
+            arraySize = 5;
+            intialChipSize = 5;
+        }
+        else if (level == 2) {
+            arraySize = 4;
+            intialChipSize = 6;
+        }
+        else if (level == 3) {
+            arraySize = 4;
+            intialChipSize = 7;
+        }
+        else if (level == 4) {
+            arraySize = 3;
+            intialChipSize = 9;
+        }
+        else if (level == 5) {
+            arraySize = 3;
+            intialChipSize = 11;
+        }
+        else if (level == 6) {
+            arraySize = 2;
+            intialChipSize = 14;
+        }
+        else if (level == 7) {
+            arraySize = 2;
+            intialChipSize = 17;
+        }
+        else if (level == 8) {
+            arraySize = 1;
+            intialChipSize = 21;
+        }
+
+        Chip chipArray[] = new Chip[arraySize];
+
+        for(int i = 0; i < arraySize; i++){
+            chipArray[i] = new Chip(this, MyProperties.getInstance().chip_id, level, intialChipSize+i);
+        }
+
+        if(chipArray[0].inDb())
+            chip1.setText(chipArray[0].getSize() + "     " + Integer.toString(chipArray[0].getCount()));
+        if(arraySize > 1){
+            if(chipArray[1].inDb())
+                chip2.setText(chipArray[1].getSize() + "     " + Integer.toString(chipArray[1].getCount()));
+        }
+        if(arraySize > 2){
+            if(chipArray[2].inDb())
+                chip3.setText(chipArray[2].getSize() + "     " + Integer.toString(chipArray[2].getCount()));
+        }
+        if(arraySize > 3){
+            if(chipArray[3].inDb())
+                chip4.setText(chipArray[3].getSize() + "     " + Integer.toString(chipArray[3].getCount()));
+        }
+        if(arraySize > 4){
+            if(chipArray[4].inDb())
+                chip5.setText(chipArray[4].getSize() + "     " + Integer.toString(chipArray[4].getCount()));
+        }
+        if(arraySize > 5){
+            if(chipArray[5].inDb())
+                chip6.setText(chipArray[5].getSize() + "     " + Integer.toString(chipArray[5].getCount()));
+        }
+    }
+
+    public void increase(){
+        //make sure a size has been selected
+        if(size > 0) {
+            new Chip(this, MyProperties.getInstance().chip_id, level, size).increaseCount();
+            writeChips();
+        }
+    }
+
+    public void decrease(){
+        //make sure a size has been selected
+        if(size > 0) {
+            new Chip(this, MyProperties.getInstance().chip_id, level, size).decreaseCount();
+            writeChips();
+        }
     }
 
     @Override

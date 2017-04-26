@@ -49,7 +49,7 @@ public class TestActivity extends AppCompatActivity {
         chipName.setText(chip.getName());
         chipCount.setText(Integer.toString(chip.getCount()));
 
-        if(chip.inDb(this))
+        if(chip.inDb())
             chipInDb.setText("True");
         else
             chipInDb.setText("False");
@@ -98,7 +98,7 @@ public class TestActivity extends AppCompatActivity {
         chipName.setText(chip.getName());
         chipCount.setText(Integer.toString(chip.getCount()));
 
-        if(chip.inDb(this))
+        if(chip.inDb())
             chipInDb.setText("True");
         else
             chipInDb.setText("False");
@@ -106,12 +106,12 @@ public class TestActivity extends AppCompatActivity {
     }
 
     public void increase(){
-        chip.increaseCount(this);
+        chip.increaseCount();
         update();
     }
 
     public void decrease(){
-        chip.decreaseCount(this);
+        chip.decreaseCount();
         update();
     }
 

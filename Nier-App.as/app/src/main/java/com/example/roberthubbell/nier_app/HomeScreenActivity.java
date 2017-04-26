@@ -23,8 +23,8 @@ public class HomeScreenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
-        GetChips task = new GetChips();
-        task.execute();
+        //GetChips task = new GetChips();
+        //task.execute();
 
         app_name = (TextView)findViewById(R.id.title_text);
         add_button = (Button)findViewById(R.id.add_button);
