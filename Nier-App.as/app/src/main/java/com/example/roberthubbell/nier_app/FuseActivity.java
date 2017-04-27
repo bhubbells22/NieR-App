@@ -32,10 +32,6 @@ public class FuseActivity extends AppCompatActivity {
                 // selector.ShowSelector(FuseActivity.this, layout, container);
             }
         });
-<<<<<<< HEAD
-=======
-
->>>>>>> bc39747cbddc606e276105118b486a039ec7baa7
     }
 
     public void updateButton(){

@@ -5,11 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/fuse_screen"
-<<<<<<< HEAD
     android:background="@drawable/background"
-=======
-    android:background="@color/Black"
->>>>>>> bc39747cbddc606e276105118b486a039ec7baa7
     tools:context="com.example.roberthubbell.nier_app.FuseActivity">
 
     <Button

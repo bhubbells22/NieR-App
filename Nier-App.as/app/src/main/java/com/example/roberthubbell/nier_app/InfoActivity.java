@@ -51,10 +51,6 @@ public class InfoActivity extends AppCompatActivity {
             }
         });
 
-<<<<<<< HEAD
-
-=======
->>>>>>> bc39747cbddc606e276105118b486a039ec7baa7
         test = new Chip(this, 1, 0, 4);
         updateButton();
 
