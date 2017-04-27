@@ -126,7 +126,6 @@ public class Chip {
         return false;
     }
 
-
     public int getId() {
         return id;
     }

@@ -35,12 +35,7 @@ public class AddActivity extends AppCompatActivity {
     public Button size4;
     public Button size5;
 
-    public TextView chip1;
-    public TextView chip2;
-    public TextView chip3;
-    public TextView chip4;
-    public TextView chip5;
-    public TextView chip6;
+
 
 
     private int level;
@@ -60,12 +55,7 @@ public class AddActivity extends AppCompatActivity {
         add_button = (Button) findViewById(R.id.add_button);
         remove_button = (Button) findViewById(R.id.remove_button);
         layout = (RelativeLayout) findViewById(R.id.add_screen);
-        chip1 = (TextView) findViewById(R.id.chipView1);
-        chip2 = (TextView) findViewById(R.id.chipView2);
-        chip3 = (TextView) findViewById(R.id.chipView3);
-        chip4 = (TextView) findViewById(R.id.chipView4);
-        chip5 = (TextView) findViewById(R.id.chipView5);
-        chip6 = (TextView) findViewById(R.id.chipView6);
+
 
         clearText();
 
@@ -421,12 +411,7 @@ public class AddActivity extends AppCompatActivity {
     }
 
     public void clearText(){
-        chip1.setText("");
-        chip2.setText("");
-        chip3.setText("");
-        chip4.setText("");
-        chip5.setText("");
-        chip6.setText("");
+
     }
 
     public void writeChips(){
@@ -479,28 +464,7 @@ public class AddActivity extends AppCompatActivity {
             chipArray[i] = new Chip(this, MyProperties.getInstance().chip_id, level, intialChipSize+i);
         }
 
-        if(chipArray[0].inDb())
-            chip1.setText(chipArray[0].getSize() + "     " + Integer.toString(chipArray[0].getCount()));
-        if(arraySize > 1){
-            if(chipArray[1].inDb())
-                chip2.setText(chipArray[1].getSize() + "     " + Integer.toString(chipArray[1].getCount()));
-        }
-        if(arraySize > 2){
-            if(chipArray[2].inDb())
-                chip3.setText(chipArray[2].getSize() + "     " + Integer.toString(chipArray[2].getCount()));
-        }
-        if(arraySize > 3){
-            if(chipArray[3].inDb())
-                chip4.setText(chipArray[3].getSize() + "     " + Integer.toString(chipArray[3].getCount()));
-        }
-        if(arraySize > 4){
-            if(chipArray[4].inDb())
-                chip5.setText(chipArray[4].getSize() + "     " + Integer.toString(chipArray[4].getCount()));
-        }
-        if(arraySize > 5){
-            if(chipArray[5].inDb())
-                chip6.setText(chipArray[5].getSize() + "     " + Integer.toString(chipArray[5].getCount()));
-        }
+
     }
 
     public void increase(){
