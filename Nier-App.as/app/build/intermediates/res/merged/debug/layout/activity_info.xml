@@ -5,148 +5,17 @@
     android:id="@+id/info_screen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Black"
+    android:background="@drawable/background"
     tools:context="com.example.roberthubbell.nier_app.InfoActivity">
 
-    <Button
-        android:id="@+id/chip_button"
+
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:text="Select Chip"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="148dp" />
-
-    <TextView
-        android:textColor="@color/White"
-        android:id="@+id/ChipDescriptionView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/chip_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp"
-        android:text="Chip Description" />
-
-    <TextView
-        android:textColor="@color/White"
-        android:id="@+id/MaxEffectView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:text="Max Effect"
-        android:layout_below="@+id/ChipDescriptionView"
-        android:layout_toStartOf="@+id/chip_button" />
-
-    <View
-        android:id="@+id/MaxEffectSeperator"
-        android:layout_width="fill_parent"
-        android:layout_height="2dip"
-        android:layout_alignBottom="@+id/MaxEffectView"
-        android:layout_alignLeft="@+id/MaxEffectView"
-        android:layout_alignRight="@+id/MaxEffectView"
-        android:background="#c0c0c0"
-        android:visibility="visible" />
-
-    <TextView
-        android:textColor="@color/White"
-        android:id="@+id/OptimalSetupView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Optimal Setup"
-        android:layout_above="@+id/OptimalView"
-        android:layout_toEndOf="@+id/chip_button" />
-
-    <View
-        android:id="@+id/OptimalSetupSeperator"
-        android:layout_width="fill_parent"
-        android:layout_height="2dip"
-        android:layout_alignBottom="@+id/OptimalSetupView"
-        android:layout_alignLeft="@+id/OptimalSetupView"
-        android:layout_alignRight="@+id/OptimalSetupView"
-        android:background="#c0c0c0"
-        android:visibility="visible" />
-
-    <ImageView
-        android:id="@+id/EnemyImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/btn_dialog"
-        android:layout_marginTop="34dp"
-        android:layout_below="@+id/EnemyNameView"
-        android:layout_centerHorizontal="true" />
-
-    <ImageView
-        android:id="@+id/LocationImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/btn_dialog"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/EnemyImageView"
-        android:layout_marginBottom="39dp" />
-
-    <TextView
-        android:id="@+id/EnemyNameView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/OptimalView"
-        android:layout_marginTop="29dp"
-        android:layout_toEndOf="@+id/MaxEffectView"
-        android:text="Enemy Name"
-        android:textColor="@color/White" />
-
-    <View
-        android:id="@+id/EnemyDescriptionSeperator"
-        android:layout_width="fill_parent"
-        android:layout_height="2dip"
-        android:layout_alignBottom="@+id/EnemyNameView"
-        android:layout_alignLeft="@+id/EnemyNameView"
-        android:layout_alignRight="@+id/EnemyNameView"
-        android:background="#c0c0c0"
-        android:visibility="visible" />
-
-    <TextView
-        android:textColor="@color/White"
-        android:id="@+id/LocationView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Location"
-        android:layout_marginTop="30dp"
-        android:layout_below="@+id/EnemyImageView"
-        android:layout_centerHorizontal="true" />
-
-    <View
-        android:id="@+id/LocationImageSeperator"
-        android:layout_width="fill_parent"
-        android:layout_height="2dip"
-        android:layout_alignBottom="@+id/LocationView"
-        android:layout_alignLeft="@+id/LocationView"
-        android:layout_alignRight="@+id/LocationView"
-        android:background="#c0c0c0"
-        android:visibility="visible" />
-
-    <TextView
-        android:textColor="@color/White"
-        android:id="@+id/EffectView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="100%"
-        android:layout_below="@+id/MaxEffectView"
-        android:layout_alignEnd="@+id/MaxEffectView"
-        android:layout_marginEnd="17dp" />
-
-    <TextView
-        android:textColor="@color/White"
-        android:id="@+id/OptimalView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Level#(Quantity)"
-        android:layout_alignTop="@+id/MaxEffectSeperator"
-        android:layout_toEndOf="@+id/ChipDescriptionView" />
-
+        android:layout_alignParentStart="true">
     <Button
-        android:id="@+id/phantom_chip_button"
+        android:id="@+id/chip_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Select Chip"
@@ -156,4 +25,130 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
+    <TextView
+        android:textColor="@color/Black"
+        android:id="@+id/ChipDescriptionView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Chip Description"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_below="@+id/chip_button"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="@color/Black"
+        android:id="@+id/MaxEffectView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Max Effect"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_below="@+id/ChipDescriptionView"
+        android:layout_toStartOf="@+id/chip_button" />
+
+
+    <TextView
+        android:textColor="@color/Black"
+        android:id="@+id/OptimalSetupView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Optimal Setup"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_alignBaseline="@+id/MaxEffectView"
+        android:layout_alignBottom="@+id/MaxEffectView"
+        android:layout_alignStart="@+id/OptimalView" />
+
+    <TextView
+        android:textColor="@color/Black"
+        android:id="@+id/EffectView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100%"
+        android:layout_marginEnd="17dp"
+        android:layout_below="@+id/MaxEffectView"
+        android:layout_alignEnd="@+id/MaxEffectView"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:textColor="@color/Black"
+        android:id="@+id/OptimalView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level#(Quantity)"
+        android:layout_above="@+id/relativeLayout"
+        android:layout_toEndOf="@+id/relativeLayout"
+        android:layout_marginStart="39dp" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="192dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/EffectView"
+        android:layout_marginTop="95dp">
+
+        <TextView
+            android:id="@+id/EnemyNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="22dp"
+            android:text="Enemy Name"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/Black" />
+
+        <ImageView
+            android:id="@+id/EnemyImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/EnemyNameView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="57dp"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/relativeLayout"
+        android:layout_alignTop="@+id/relativeLayout"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/relativeLayout2">
+        <TextView
+            android:textColor="@color/Black"
+            android:id="@+id/LocationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="24dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/LocationImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/btn_dialog"
+            android:layout_below="@+id/LocationView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp" />
+        </RelativeLayout>
+
+
 </RelativeLayout>
+    </RelativeLayout>

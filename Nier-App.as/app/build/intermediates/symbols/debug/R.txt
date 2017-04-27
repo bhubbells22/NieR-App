@@ -571,70 +571,33 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f02004f
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f020050
 int drawable abc_textfield_search_material 0x7f020051
 int drawable abc_vector_test 0x7f020052
-int drawable customborder 0x7f020053
-int drawable customborder2 0x7f020054
-int drawable notification_action_background 0x7f020055
-int drawable notification_bg 0x7f020056
-int drawable notification_bg_low 0x7f020057
-int drawable notification_bg_low_normal 0x7f020058
-int drawable notification_bg_low_pressed 0x7f020059
-int drawable notification_bg_normal 0x7f02005a
-int drawable notification_bg_normal_pressed 0x7f02005b
-int drawable notification_icon_background 0x7f02005c
-int drawable notification_template_icon_bg 0x7f02005f
-int drawable notification_template_icon_low_bg 0x7f020060
-int drawable notification_tile_bg 0x7f02005d
-int drawable notify_panel_notification_icon_bg 0x7f02005e
-<<<<<<< HEAD
-<<<<<<< HEAD
-int id ChipDescrptionView 0x7f0b0084
-int id EffectView 0x7f0b0095
-int id EnemyDescriptionSeperator 0x7f0b0092
-int id EnemyDescriptionView 0x7f0b0090
-int id EnemyImageView 0x7f0b008f
-int id LocationImageSeperator 0x7f0b0094
-int id LocationImageView 0x7f0b0091
-int id LocationView 0x7f0b0093
-int id MaxEffectSeperator 0x7f0b008b
-int id MaxEffectView 0x7f0b008a
-int id OptimalSetupSeperator 0x7f0b008e
-int id OptimalSetupView 0x7f0b008c
-int id OptimalView 0x7f0b008d
-int id action0 0x7f0b00a9
-=======
-int id ChipDescriptionView 0x7f0b008c
-int id ChipDescrptionView 0x7f0b0085
-int id EffectView 0x7f0b0098
-int id EnemyDescriptionSeperator 0x7f0b0095
-int id EnemyImageView 0x7f0b0092
-int id EnemyNameView 0x7f0b0093
-int id LocationImageSeperator 0x7f0b0097
-int id LocationImageView 0x7f0b0094
-int id LocationView 0x7f0b0096
-int id MaxEffectSeperator 0x7f0b008e
-int id MaxEffectView 0x7f0b008d
-int id OptimalSetupSeperator 0x7f0b0091
-int id OptimalSetupView 0x7f0b008f
-int id OptimalView 0x7f0b0090
-int id action0 0x7f0b00b1
->>>>>>> 8c78276713d6b582b86a9730b14b730043b577c9
-=======
+int drawable background 0x7f020053
+int drawable customborder 0x7f020054
+int drawable customborder2 0x7f020055
+int drawable notification_action_background 0x7f020056
+int drawable notification_bg 0x7f020057
+int drawable notification_bg_low 0x7f020058
+int drawable notification_bg_low_normal 0x7f020059
+int drawable notification_bg_low_pressed 0x7f02005a
+int drawable notification_bg_normal 0x7f02005b
+int drawable notification_bg_normal_pressed 0x7f02005c
+int drawable notification_icon_background 0x7f02005d
+int drawable notification_template_icon_bg 0x7f020061
+int drawable notification_template_icon_low_bg 0x7f020062
+int drawable notification_tile_bg 0x7f02005e
+int drawable notify_panel_notification_icon_bg 0x7f02005f
+int drawable roundedbutton 0x7f020060
 int id ChipDescriptionView 0x7f0b0092
-int id ChipDescrptionView 0x7f0b008b
-int id EffectView 0x7f0b009e
-int id EnemyDescriptionSeperator 0x7f0b009b
-int id EnemyImageView 0x7f0b0098
-int id EnemyNameView 0x7f0b0099
-int id LocationImageSeperator 0x7f0b009d
-int id LocationImageView 0x7f0b009a
-int id LocationView 0x7f0b009c
-int id MaxEffectSeperator 0x7f0b0094
+int id ChipDescrptionView 0x7f0b008a
+int id EffectView 0x7f0b0096
+int id EnemyImageView 0x7f0b0099
+int id EnemyNameView 0x7f0b0098
+int id LocationImageView 0x7f0b009c
+int id LocationView 0x7f0b009b
 int id MaxEffectView 0x7f0b0093
-int id OptimalSetupSeperator 0x7f0b0097
-int id OptimalSetupView 0x7f0b0095
-int id OptimalView 0x7f0b0096
-int id action0 0x7f0b00b7
->>>>>>> 11163a89088c242e6f78fb3f589264e90aea0c09
+int id OptimalSetupView 0x7f0b0094
+int id OptimalView 0x7f0b0095
+int id action0 0x7f0b00b5
 int id action_bar 0x7f0b005e
 int id action_bar_activity_content 0x7f0b0000
 int id action_bar_container 0x7f0b005d
@@ -642,41 +605,17 @@ int id action_bar_root 0x7f0b0059
 int id action_bar_spinner 0x7f0b0001
 int id action_bar_subtitle 0x7f0b003c
 int id action_bar_title 0x7f0b003b
-<<<<<<< HEAD
-<<<<<<< HEAD
-int id action_container 0x7f0b00a6
+int id action_container 0x7f0b00b2
 int id action_context_bar 0x7f0b005f
-int id action_divider 0x7f0b00ad
-int id action_image 0x7f0b00a7
-=======
-int id action_container 0x7f0b00ae
-int id action_context_bar 0x7f0b005f
-int id action_divider 0x7f0b00b5
-int id action_image 0x7f0b00af
->>>>>>> 8c78276713d6b582b86a9730b14b730043b577c9
-=======
-int id action_container 0x7f0b00b4
-int id action_context_bar 0x7f0b005f
-int id action_divider 0x7f0b00bb
-int id action_image 0x7f0b00b5
->>>>>>> 11163a89088c242e6f78fb3f589264e90aea0c09
+int id action_divider 0x7f0b00b9
+int id action_image 0x7f0b00b3
 int id action_menu_divider 0x7f0b0002
 int id action_menu_presenter 0x7f0b0003
 int id action_mode_bar 0x7f0b005b
 int id action_mode_bar_stub 0x7f0b005a
 int id action_mode_close_button 0x7f0b003d
-<<<<<<< HEAD
-<<<<<<< HEAD
-int id action_text 0x7f0b00a8
-int id actions 0x7f0b00b5
-=======
-int id action_text 0x7f0b00b0
-int id actions 0x7f0b00bd
->>>>>>> 8c78276713d6b582b86a9730b14b730043b577c9
-=======
-int id action_text 0x7f0b00b6
-int id actions 0x7f0b00c3
->>>>>>> 11163a89088c242e6f78fb3f589264e90aea0c09
+int id action_text 0x7f0b00b4
+int id actions 0x7f0b00c1
 int id activity_chooser_view_content 0x7f0b003e
 int id add 0x7f0b001b
 int id add_button 0x7f0b0070
@@ -686,92 +625,39 @@ int id alignBounds 0x7f0b0024
 int id alignMargins 0x7f0b0025
 int id all 0x7f0b000e
 int id always 0x7f0b0036
-<<<<<<< HEAD
-<<<<<<< HEAD
-int id attack_button 0x7f0b0096
-=======
-int id attack_button 0x7f0b0099
-=======
-int id attack_button 0x7f0b009f
->>>>>>> 11163a89088c242e6f78fb3f589264e90aea0c09
-int id back_button 0x7f0b0070
->>>>>>> 8c78276713d6b582b86a9730b14b730043b577c9
+int id attack_button 0x7f0b009d
 int id basic 0x7f0b000f
 int id beginning 0x7f0b0034
 int id bottom 0x7f0b0026
 int id buttonPanel 0x7f0b0045
-<<<<<<< HEAD
-<<<<<<< HEAD
-int id cancel_action 0x7f0b00aa
-=======
-int id cancel_action 0x7f0b00b2
->>>>>>> 8c78276713d6b582b86a9730b14b730043b577c9
-=======
-int id cancel_action 0x7f0b00b8
->>>>>>> 11163a89088c242e6f78fb3f589264e90aea0c09
+int id cancel_action 0x7f0b00b6
 int id center 0x7f0b0027
 int id center_horizontal 0x7f0b0028
 int id center_vertical 0x7f0b0029
 int id chains 0x7f0b0010
 int id checkbox 0x7f0b0055
-<<<<<<< HEAD
-<<<<<<< HEAD
-int id chip1 0x7f0b009a
-int id chip10 0x7f0b00a3
-int id chip11 0x7f0b00a4
-int id chip12 0x7f0b00a5
-int id chip2 0x7f0b009b
-int id chip3 0x7f0b009c
-int id chip4 0x7f0b009d
-int id chip5 0x7f0b009e
-int id chip6 0x7f0b009f
-int id chip7 0x7f0b00a0
-int id chip8 0x7f0b00a1
-int id chip9 0x7f0b00a2
+int id chip1 0x7f0b00a1
+int id chip10 0x7f0b00aa
+int id chip11 0x7f0b00ab
+int id chip12 0x7f0b00ac
+int id chip2 0x7f0b00a2
+int id chip3 0x7f0b00a3
+int id chip4 0x7f0b00a4
+int id chip5 0x7f0b00a5
+int id chip6 0x7f0b00a6
+int id chip7 0x7f0b00a7
+int id chip8 0x7f0b00a8
+int id chip9 0x7f0b00a9
+int id chipCount 0x7f0b00af
+int id chipName 0x7f0b00ae
+int id chipView1 0x7f0b0088
+int id chipView2 0x7f0b0087
+int id chipView3 0x7f0b0086
+int id chipView4 0x7f0b0085
+int id chipView5 0x7f0b0084
+int id chipView6 0x7f0b0083
 int id chip_button 0x7f0b006e
-int id chronometer 0x7f0b00b2
-=======
-int id chip1 0x7f0b009d
-int id chip10 0x7f0b00a6
-int id chip11 0x7f0b00a7
-int id chip12 0x7f0b00a8
-int id chip2 0x7f0b009e
-int id chip3 0x7f0b009f
-int id chip4 0x7f0b00a0
-int id chip5 0x7f0b00a1
-int id chip6 0x7f0b00a2
-int id chip7 0x7f0b00a3
-int id chip8 0x7f0b00a4
-int id chip9 0x7f0b00a5
-int id chipCount 0x7f0b00ab
-int id chipName 0x7f0b00aa
-int id chip_button 0x7f0b006e
-int id chronometer 0x7f0b00ba
->>>>>>> 8c78276713d6b582b86a9730b14b730043b577c9
-=======
-int id chip1 0x7f0b00a3
-int id chip10 0x7f0b00ac
-int id chip11 0x7f0b00ad
-int id chip12 0x7f0b00ae
-int id chip2 0x7f0b00a4
-int id chip3 0x7f0b00a5
-int id chip4 0x7f0b00a6
-int id chip5 0x7f0b00a7
-int id chip6 0x7f0b00a8
-int id chip7 0x7f0b00a9
-int id chip8 0x7f0b00aa
-int id chip9 0x7f0b00ab
-int id chipCount 0x7f0b00b1
-int id chipName 0x7f0b00b0
-int id chipView1 0x7f0b0089
-int id chipView2 0x7f0b0088
-int id chipView3 0x7f0b0087
-int id chipView4 0x7f0b0086
-int id chipView5 0x7f0b0085
-int id chipView6 0x7f0b0084
-int id chip_button 0x7f0b006e
-int id chronometer 0x7f0b00c0
->>>>>>> 11163a89088c242e6f78fb3f589264e90aea0c09
+int id chronometer 0x7f0b00be
 int id clip_horizontal 0x7f0b002a
 int id clip_vertical 0x7f0b002b
 int id collapseActionView 0x7f0b0037
@@ -780,54 +666,31 @@ int id custom 0x7f0b004f
 int id customPanel 0x7f0b004e
 int id decor_content_parent 0x7f0b005c
 int id default_activity_button 0x7f0b0041
-<<<<<<< HEAD
-<<<<<<< HEAD
-int id defense_button 0x7f0b0097
+int id defense_button 0x7f0b009e
 int id disableHome 0x7f0b0015
 int id edit_query 0x7f0b0060
 int id end 0x7f0b002c
-int id end_padder 0x7f0b00bc
-=======
-int id defense_button 0x7f0b009a
-int id disableHome 0x7f0b0015
-int id edit_query 0x7f0b0060
-int id end 0x7f0b002c
-int id end_padder 0x7f0b00c4
->>>>>>> 8c78276713d6b582b86a9730b14b730043b577c9
-=======
-int id defense_button 0x7f0b00a0
-int id disableHome 0x7f0b0015
-int id edit_query 0x7f0b0060
-int id end 0x7f0b002c
-int id end_padder 0x7f0b00ca
->>>>>>> 11163a89088c242e6f78fb3f589264e90aea0c09
+int id end_padder 0x7f0b00c8
 int id expand_activities_button 0x7f0b003f
 int id expanded_menu 0x7f0b0054
 int id fill 0x7f0b002d
 int id fill_horizontal 0x7f0b002e
 int id fill_vertical 0x7f0b002f
-<<<<<<< HEAD
-<<<<<<< HEAD
-int id fuse_button 0x7f0b0087
-int id fuse_screen 0x7f0b0083
-int id hacking_button 0x7f0b0099
-=======
-int id fuse_button 0x7f0b0088
-int id fuse_screen 0x7f0b0084
-int id hacking_button 0x7f0b009c
->>>>>>> 8c78276713d6b582b86a9730b14b730043b577c9
+int id fuse_button 0x7f0b008e
+int id fuse_screen 0x7f0b0089
+int id hacking_button 0x7f0b00a0
 int id home 0x7f0b0004
 int id homeAsUp 0x7f0b0016
-int id home_screen 0x7f0b0085
+int id home_screen 0x7f0b008b
 int id horizontal 0x7f0b0022
 int id icon 0x7f0b0043
-<<<<<<< HEAD
-int id icon_group 0x7f0b00b6
+int id icon_group 0x7f0b00c2
 int id ifRoom 0x7f0b0038
 int id image 0x7f0b0040
-int id info 0x7f0b00b3
-int id info_button 0x7f0b0088
-int id info_screen 0x7f0b0089
+int id inDB 0x7f0b00b0
+int id info 0x7f0b00bf
+int id info_button 0x7f0b008f
+int id info_screen 0x7f0b0091
 int id left 0x7f0b0030
 int id level0 0x7f0b0074
 int id level1 0x7f0b0075
@@ -839,71 +702,20 @@ int id level6 0x7f0b0079
 int id level7 0x7f0b007a
 int id level8 0x7f0b007b
 int id level_text 0x7f0b0072
-int id line1 0x7f0b00b8
-int id line3 0x7f0b00ba
+int id line1 0x7f0b00c4
+int id line3 0x7f0b00c6
+int id linearLayout 0x7f0b008d
 int id listMode 0x7f0b0012
 int id list_item 0x7f0b0042
-int id media_actions 0x7f0b00ac
-=======
-int id icon_group 0x7f0b00be
-=======
-int id fuse_button 0x7f0b008e
-int id fuse_screen 0x7f0b008a
-int id hacking_button 0x7f0b00a2
-int id home 0x7f0b0004
-int id homeAsUp 0x7f0b0016
-int id home_screen 0x7f0b008c
-int id horizontal 0x7f0b0022
-int id icon 0x7f0b0043
-int id icon_group 0x7f0b00c4
->>>>>>> 11163a89088c242e6f78fb3f589264e90aea0c09
-int id ifRoom 0x7f0b0038
-int id image 0x7f0b0040
-int id inDB 0x7f0b00b2
-int id info 0x7f0b00c1
-int id info_button 0x7f0b008f
-int id info_screen 0x7f0b0091
-int id left 0x7f0b0030
-int id level0 0x7f0b0075
-int id level1 0x7f0b0076
-int id level2 0x7f0b0077
-int id level3 0x7f0b0078
-int id level4 0x7f0b0079
-int id level5 0x7f0b0074
-int id level6 0x7f0b007a
-int id level7 0x7f0b007b
-int id level8 0x7f0b007c
-int id level_text 0x7f0b0073
-int id line1 0x7f0b00c6
-int id line3 0x7f0b00c8
-int id listMode 0x7f0b0012
-int id list_item 0x7f0b0042
-<<<<<<< HEAD
-int id media_actions 0x7f0b00b4
->>>>>>> 8c78276713d6b582b86a9730b14b730043b577c9
-=======
-int id media_actions 0x7f0b00ba
->>>>>>> 11163a89088c242e6f78fb3f589264e90aea0c09
+int id media_actions 0x7f0b00b8
 int id middle 0x7f0b0035
 int id multiply 0x7f0b001c
 int id never 0x7f0b0039
 int id none 0x7f0b0011
 int id normal 0x7f0b0013
-<<<<<<< HEAD
-<<<<<<< HEAD
-int id notification_background 0x7f0b00b4
-int id notification_main_column 0x7f0b00af
-int id notification_main_column_container 0x7f0b00ae
-=======
-int id notification_background 0x7f0b00bc
-int id notification_main_column 0x7f0b00b7
-int id notification_main_column_container 0x7f0b00b6
->>>>>>> 8c78276713d6b582b86a9730b14b730043b577c9
-=======
-int id notification_background 0x7f0b00c2
-int id notification_main_column 0x7f0b00bd
-int id notification_main_column_container 0x7f0b00bc
->>>>>>> 11163a89088c242e6f78fb3f589264e90aea0c09
+int id notification_background 0x7f0b00c0
+int id notification_main_column 0x7f0b00bb
+int id notification_main_column_container 0x7f0b00ba
 int id packed 0x7f0b000c
 int id parent 0x7f0b0009
 int id parentPanel 0x7f0b0047
@@ -911,26 +723,13 @@ int id phantom_chip_button 0x7f0b006f
 int id progress_circular 0x7f0b0005
 int id progress_horizontal 0x7f0b0006
 int id radio 0x7f0b0057
-<<<<<<< HEAD
-<<<<<<< HEAD
+int id relativeLayout 0x7f0b0097
+int id relativeLayout2 0x7f0b009a
+int id remove 0x7f0b00b1
 int id remove_button 0x7f0b0071
 int id right 0x7f0b0031
-int id right_icon 0x7f0b00b7
-int id right_side 0x7f0b00b0
-=======
-int id remove 0x7f0b00ad
-int id remove_button 0x7f0b0072
-int id right 0x7f0b0031
-int id right_icon 0x7f0b00bf
-int id right_side 0x7f0b00b8
->>>>>>> 8c78276713d6b582b86a9730b14b730043b577c9
-=======
-int id remove 0x7f0b00b3
-int id remove_button 0x7f0b0072
-int id right 0x7f0b0031
-int id right_icon 0x7f0b00c5
-int id right_side 0x7f0b00be
->>>>>>> 11163a89088c242e6f78fb3f589264e90aea0c09
+int id right_icon 0x7f0b00c3
+int id right_side 0x7f0b00bc
 int id screen 0x7f0b001d
 int id scrollIndicatorDown 0x7f0b004d
 int id scrollIndicatorUp 0x7f0b0049
@@ -965,47 +764,22 @@ int id src_atop 0x7f0b001e
 int id src_in 0x7f0b001f
 int id src_over 0x7f0b0020
 int id start 0x7f0b0032
-<<<<<<< HEAD
-<<<<<<< HEAD
-int id status_bar_latest_event_content 0x7f0b00ab
+int id status_bar_latest_event_content 0x7f0b00b7
 int id submenuarrow 0x7f0b0058
 int id submit_area 0x7f0b0069
-int id support_button 0x7f0b0098
-int id tabMode 0x7f0b0014
-int id text 0x7f0b00bb
-int id text2 0x7f0b00b9
-int id textSpacerNoButtons 0x7f0b004c
-int id textSpacerNoTitle 0x7f0b004b
-int id time 0x7f0b00b1
-=======
-int id status_bar_latest_event_content 0x7f0b00b3
-=======
-int id status_bar_latest_event_content 0x7f0b00b9
->>>>>>> 11163a89088c242e6f78fb3f589264e90aea0c09
-int id submenuarrow 0x7f0b0058
-int id submit_area 0x7f0b0069
-int id support_button 0x7f0b00a1
+int id support_button 0x7f0b009f
 int id tabMode 0x7f0b0014
 int id test_button 0x7f0b0090
-int id test_screen 0x7f0b00af
-int id text 0x7f0b00c9
-int id text2 0x7f0b00c7
+int id test_screen 0x7f0b00ad
+int id text 0x7f0b00c7
+int id text2 0x7f0b00c5
 int id textSpacerNoButtons 0x7f0b004c
 int id textSpacerNoTitle 0x7f0b004b
-<<<<<<< HEAD
-int id time 0x7f0b00b9
->>>>>>> 8c78276713d6b582b86a9730b14b730043b577c9
+int id time 0x7f0b00bd
 int id title 0x7f0b0044
 int id titleDividerNoCustom 0x7f0b0053
 int id title_template 0x7f0b0051
-int id title_text 0x7f0b0086
-=======
-int id time 0x7f0b00bf
-int id title 0x7f0b0044
-int id titleDividerNoCustom 0x7f0b0053
-int id title_template 0x7f0b0051
-int id title_text 0x7f0b008d
->>>>>>> 11163a89088c242e6f78fb3f589264e90aea0c09
+int id title_text 0x7f0b008c
 int id top 0x7f0b0033
 int id topPanel 0x7f0b0050
 int id up 0x7f0b0008
@@ -1070,8 +844,9 @@ int layout select_dialog_item_material 0x7f040030
 int layout select_dialog_multichoice_material 0x7f040031
 int layout select_dialog_singlechoice_material 0x7f040032
 int layout support_simple_spinner_dropdown_item 0x7f040033
-int mipmap ic_launcher 0x7f030000
-int mipmap ic_launcher_round 0x7f030001
+int mipmap background 0x7f030000
+int mipmap ic_launcher 0x7f030001
+int mipmap ic_launcher_round 0x7f030002
 int string abc_action_bar_home_description 0x7f060000
 int string abc_action_bar_home_description_format 0x7f060001
 int string abc_action_bar_home_subtitle_description_format 0x7f060002

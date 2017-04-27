@@ -7,8 +7,17 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="621e5fecd01b0867f8c015f7efcb8c2021344df7">
+        sha1="54680e2b1d69f05fe3dccdef13392f7328ceed01">
         <dex dex="C:\Users\Justin Temp\Desktop\Repositories\NieR-App\Nier-App.as\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_657e447b3e4f931cfddd20d4acd3da5bc1d918d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justin Temp\.gradle\caches\modules-2\files-2.1\com.readystatesoftware.sqliteasset\sqliteassethelper\2.0.1\d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f\sqliteassethelper-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
+        <dex dex="C:\Users\Justin Temp\Desktop\Repositories\NieR-App\Nier-App.as\app\build\intermediates\transforms\dex\debug\folders\1000\10\sqliteassethelper-2.0.1_d391db4fa49a707148bcaa4b6322e24717fefe85\classes.dex" />
     </item>
     <item
         is-multidex="true"

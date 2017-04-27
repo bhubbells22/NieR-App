@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/add_screen"
-    android:background="@color/Black"
+    android:background="@drawable/background"
     tools:context="com.example.roberthubbell.nier_app.AddActivity">
 
     <Button
@@ -52,7 +52,7 @@
         android:id="@+id/level_text"
         android:text="level"
         android:textSize="40dp"
-        android:textColor="@color/White"
+        android:textColor="@color/Black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="77dp"
@@ -135,7 +135,7 @@
         android:id="@+id/size_text"
         android:text="size"
         android:textSize="40dp"
-        android:textColor="@color/White"
+        android:textColor="@color/Black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/level6"

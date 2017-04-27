@@ -50,19 +50,11 @@ public class InfoActivity extends AppCompatActivity {
                 selector.ShowSelector(InfoActivity.this, layout, container);
             }
         });
-<<<<<<< HEAD
-=======
 
-        back_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-                finish();
-            }
-        });
         test = new Chip(this, 1, 0, 4);
         updateButton();
->>>>>>> 8c78276713d6b582b86a9730b14b730043b577c9
+
     }
 
     public void updateButton(){

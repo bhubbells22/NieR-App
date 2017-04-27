@@ -34,9 +34,6 @@ public class HomeScreenActivity extends AppCompatActivity {
 
         Typeface font = Typeface.createFromAsset(getAssets(), "Benguiat.ttf");
         app_name.setTypeface(font);
-        add_button.setTypeface(font);
-        fuse_button.setTypeface(font);
-        info_button.setTypeface(font);
 
         test_button = (Button) findViewById(R.id.test_button);
 

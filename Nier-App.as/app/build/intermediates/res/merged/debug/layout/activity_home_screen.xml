@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Black"
+    android:background="@drawable/background"
     android:id="@+id/home_screen"
     tools:context="com.example.roberthubbell.nier_app.HomeScreenActivity">
 
@@ -13,64 +13,62 @@
         android:id="@+id/title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:text="@string/app_name"
-        android:textColor="@color/White"
-        android:textSize="60sp"
+        android:textColor="@color/Black"
+        android:textSize="80sp"
         android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.3"
+        android:layout_marginTop="47dp"
         android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/test_button" />
+        android:layout_centerHorizontal="true" />
 
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_above="@+id/info_button"
-    android:layout_alignParentStart="true"
-    android:layout_marginBottom="21dp"
-    android:layout_alignParentEnd="true">
+    android:id="@+id/linearLayout"
+    app:layout_constraintHorizontal_bias="0.5"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true">
 
     <Button
         android:id="@+id/add_button"
-        android:layout_width="180dp"
+        android:layout_width="178dp"
         android:layout_height="150dp"
-        android:layout_above="@+id/fuse_button"
-        android:layout_alignright="@+id/fuse_button"
+        android:layout_alignRight="@+id/fuse_button"
         android:layout_marginBottom="37dp"
+        android:layout_marginRight="10dp"
         android:text="@string/add_button"
         android:textAllCaps="false"
         android:textSize="30sp"
-        android:typeface="serif"
-        android:layout_marginLeft="10dp" />
+        android:typeface="serif" />
 
     <Button
         android:id="@+id/fuse_button"
         android:layout_width="180dp"
         android:layout_height="150dp"
-        android:layout_above="@+id/info_button"
         android:layout_marginBottom="32dp"
+        android:layout_marginLeft="10dp"
         android:text="@string/fuse_button"
         android:textAllCaps="false"
         android:textSize="30sp"
-        android:typeface="serif"
-        android:layout_marginLeft="10dp" />
+        android:typeface="serif" />
 </LinearLayout>
 
     <Button
         android:id="@+id/info_button"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="61dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:background="@drawable/roundedbutton"
         android:text="i"
         android:textAllCaps="false"
-        android:textSize="30sp"
+        android:textSize="40sp"
         android:typeface="serif"
+        android:layout_marginBottom="21dp"
         android:layout_above="@+id/test_button"
         android:layout_centerHorizontal="true" />
 
