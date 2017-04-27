@@ -42,7 +42,7 @@ public class HomeScreenActivity extends AppCompatActivity {
         add_button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intent = new Intent(HomeScreenActivity.this, AddActivity.class);
+                Intent intent = new Intent(HomeScreenActivity.this, AddDrawerActivity.class);
                 startActivity(intent);
             }
         });
@@ -50,7 +50,7 @@ public class HomeScreenActivity extends AppCompatActivity {
         fuse_button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intent = new Intent(HomeScreenActivity.this, FuseActivity.class);
+                Intent intent = new Intent(HomeScreenActivity.this, FuseDrawerActivity.class);
                 startActivity(intent);
             }
         });
@@ -58,7 +58,7 @@ public class HomeScreenActivity extends AppCompatActivity {
         info_button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intent = new Intent(HomeScreenActivity.this, InfoActivity.class);
+                Intent intent = new Intent(HomeScreenActivity.this, InfoDrawerActivity.class);
                 startActivity(intent);
             }
         });

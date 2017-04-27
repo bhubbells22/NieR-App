@@ -47,11 +47,14 @@ public class InfoActivity extends AppCompatActivity {
                 ViewGroup container = (ViewGroup) layoutInflater.inflate(R.layout.chip_selector, null);
 
                 ChipSelector selector = new ChipSelector();
-                selector.ShowSelector(InfoActivity.this, layout, container);
+                // selector.ShowSelector(InfoActivity.this, layout, container);
             }
         });
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> bc39747cbddc606e276105118b486a039ec7baa7
         test = new Chip(this, 1, 0, 4);
         updateButton();
 

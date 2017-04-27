@@ -29,9 +29,13 @@ public class FuseActivity extends AppCompatActivity {
                 ViewGroup container = (ViewGroup) layoutInflater.inflate(R.layout.chip_selector, null);
 
                 ChipSelector selector = new ChipSelector();
-                selector.ShowSelector(FuseActivity.this, layout, container);
+                // selector.ShowSelector(FuseActivity.this, layout, container);
             }
         });
+<<<<<<< HEAD
+=======
+
+>>>>>>> bc39747cbddc606e276105118b486a039ec7baa7
     }
 
     public void updateButton(){

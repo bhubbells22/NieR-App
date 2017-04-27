@@ -76,7 +76,11 @@ public class AddActivity extends AppCompatActivity {
                 ViewGroup container = (ViewGroup) layoutInflater.inflate(R.layout.chip_selector, null);
 
                 ChipSelector selector = new ChipSelector();
+<<<<<<< HEAD
                 selector.ShowSelector(AddActivity.this, layout, container);
+=======
+                // selector.ShowSelector(AddActivity.this, layout, container);
+>>>>>>> bc39747cbddc606e276105118b486a039ec7baa7
             }
         });
 

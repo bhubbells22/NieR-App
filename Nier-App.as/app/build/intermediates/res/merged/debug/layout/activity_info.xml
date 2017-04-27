@@ -13,6 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+<<<<<<< HEAD
         android:layout_alignParentStart="true">
     <Button
         android:id="@+id/chip_button"
@@ -24,6 +25,13 @@
         android:layout_marginTop="32dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+=======
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Select Chip"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="148dp" />
+>>>>>>> bc39747cbddc606e276105118b486a039ec7baa7
 
     <TextView
         android:textColor="@color/Black"
@@ -68,10 +76,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="100%"
+<<<<<<< HEAD
         android:layout_marginEnd="17dp"
         android:layout_below="@+id/MaxEffectView"
         android:layout_alignEnd="@+id/MaxEffectView"
         android:layout_marginTop="11dp" />
+=======
+        android:layout_toStartOf="@+id/chip_button"
+        android:layout_below="@+id/MaxEffectView" />
+>>>>>>> bc39747cbddc606e276105118b486a039ec7baa7
 
     <TextView
         android:textColor="@color/Black"

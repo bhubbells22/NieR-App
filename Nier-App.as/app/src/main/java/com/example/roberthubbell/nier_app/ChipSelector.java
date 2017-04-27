@@ -42,7 +42,7 @@ public class ChipSelector {
     private TextView chip11;
     private TextView chip12;
     private TextView[] chips = new TextView[13];
-    public void ShowSelector(final AddActivity parent, RelativeLayout layout, ViewGroup container){
+    public void ShowSelector(final AddDrawerActivity parent, RelativeLayout layout, ViewGroup container){
 
 
         //Set up chip select buttons
@@ -513,7 +513,7 @@ public class ChipSelector {
         });
     }
 
-    public void ShowSelector(final FuseActivity parent, RelativeLayout layout, ViewGroup container){
+    public void ShowSelector(final FuseDrawerActivity parent, RelativeLayout layout, ViewGroup container){
 
 
         //Set up chip select buttons
@@ -985,7 +985,7 @@ public class ChipSelector {
         });
     }
 
-    public void ShowSelector(final InfoActivity parent, RelativeLayout layout, ViewGroup container){
+    public void ShowSelector(final InfoDrawerActivity parent, RelativeLayout layout, ViewGroup container){
 
 
         //Set up chip select buttons
