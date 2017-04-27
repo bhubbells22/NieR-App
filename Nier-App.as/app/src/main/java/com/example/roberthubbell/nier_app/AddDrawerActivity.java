@@ -1,6 +1,7 @@
 package com.example.roberthubbell.nier_app;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -104,7 +105,7 @@ final public class AddDrawerActivity extends AppCompatActivity
         });
 
         level_text = (TextView) findViewById(R.id.level_text);
-
+        level = -1;
         // create instance of buttons
 
         level0 = (Button) findViewById(R.id.level0);
@@ -154,6 +155,8 @@ final public class AddDrawerActivity extends AppCompatActivity
                 size5.setVisibility(View.VISIBLE);
                 size5.setText("9");
                 */
+                setButtonsBlack();
+                level0.setTextColor(Color.RED);
                 level = 0;
                 size = 0; //unselect a size
                 writeChips();
@@ -177,6 +180,8 @@ final public class AddDrawerActivity extends AppCompatActivity
                 size4.setText("9");
                 size5.setVisibility(View.GONE);
                 */
+                setButtonsBlack();
+                level1.setTextColor(Color.RED);
                 level = 1;
                 size = 0; //unselect a size
                 writeChips();
@@ -199,6 +204,8 @@ final public class AddDrawerActivity extends AppCompatActivity
                 size4.setText("9");
                 size5.setVisibility(View.GONE);
                 */
+                setButtonsBlack();
+                level2.setTextColor(Color.RED);
                 level = 2;
                 size = 0; //unselect a size
                 writeChips();
@@ -221,6 +228,8 @@ final public class AddDrawerActivity extends AppCompatActivity
                 size4.setVisibility(View.VISIBLE);
                 size5.setVisibility(View.GONE);
                 */
+                setButtonsBlack();
+                level3.setTextColor(Color.RED);
                 level = 3;
                 size = 0; //unselect a size
                 writeChips();
@@ -242,6 +251,8 @@ final public class AddDrawerActivity extends AppCompatActivity
                 size4.setVisibility(View.GONE);
                 size5.setVisibility(View.GONE);
                 */
+                setButtonsBlack();
+                level4.setTextColor(Color.RED);
                 level = 4;
                 size = 0; //unselect a size
                 writeChips();
@@ -263,6 +274,8 @@ final public class AddDrawerActivity extends AppCompatActivity
                 size4.setVisibility(View.GONE);
                 size5.setVisibility(View.GONE);
                 */
+                setButtonsBlack();
+                level5.setTextColor(Color.RED);
                 level = 5;
                 size = 0; //unselect a size
                 writeChips();
@@ -283,6 +296,8 @@ final public class AddDrawerActivity extends AppCompatActivity
                 size4.setVisibility(View.GONE);
                 size5.setVisibility(View.GONE);
                 */
+                setButtonsBlack();
+                level6.setTextColor(Color.RED);
                 level = 6;
                 size = 0; //unselect a size
                 writeChips();
@@ -303,6 +318,8 @@ final public class AddDrawerActivity extends AppCompatActivity
                 size4.setVisibility(View.GONE);
                 size5.setVisibility(View.GONE);
                 */
+                setButtonsBlack();
+                level7.setTextColor(Color.RED);
                 level = 7;
                 size = 0; //unselect a size
                 writeChips();
@@ -322,6 +339,8 @@ final public class AddDrawerActivity extends AppCompatActivity
                 size4.setVisibility(View.GONE);
                 size5.setVisibility(View.GONE);
                 */
+                setButtonsBlack();
+                level8.setTextColor(Color.RED);
                 level = 8;
                 size = 0; //unselect a size
                 writeChips();
@@ -447,7 +466,8 @@ final public class AddDrawerActivity extends AppCompatActivity
 
     public void updateButton(){
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
-        unstage();
+        if(level > -1)
+            writeChips();
     }
 
     public void unstage(){
@@ -464,6 +484,17 @@ final public class AddDrawerActivity extends AppCompatActivity
 
     }
 
+    public void setButtonsBlack(){
+        level0.setTextColor(Color.BLACK);
+        level1.setTextColor(Color.BLACK);
+        level2.setTextColor(Color.BLACK);
+        level3.setTextColor(Color.BLACK);
+        level4.setTextColor(Color.BLACK);
+        level5.setTextColor(Color.BLACK);
+        level6.setTextColor(Color.BLACK);
+        level7.setTextColor(Color.BLACK);
+        level8.setTextColor(Color.BLACK);
+    }
     public void clearText(){
         adapter.clear();
     }
