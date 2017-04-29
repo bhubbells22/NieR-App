@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-1.1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/3fc14d41731309817e9e784207da67c46336889a/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/3fc14d41731309817e9e784207da67c46336889a/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lantouzi.wheelview/library/1.1.2/a1967e04a540d1cb6ed4aefe1fc18c2fb889909c/library-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

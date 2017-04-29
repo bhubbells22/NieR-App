@@ -26,15 +26,12 @@
         <activity android:name=".TestActivity" />
         <activity
             android:name=".AddDrawerActivity"
-            android:label="@string/title_activity_drawer"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".FuseDrawerActivity"
-            android:label="@string/title_activity_fuse_drawer"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".InfoDrawerActivity"
-            android:label="@string/title_activity_info_drawer"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

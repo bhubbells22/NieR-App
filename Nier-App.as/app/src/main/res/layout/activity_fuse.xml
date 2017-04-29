@@ -20,13 +20,41 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:id="@+id/placeholder_for_wheel"
+        android:id="@+id/phantom_chip_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/chip_button"
+        android:text="Select Chip"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="148dp"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:text="wheel" />
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/level_text"
+        android:text="level"
+        android:textSize="40dp"
+        android:textColor="@color/Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phantom_chip_button"
+        android:layout_centerHorizontal="true" />
+
+    <com.lantouzi.wheelview.WheelView
+        android:id="@+id/wheel"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:lwvHighlightColor="@color/Red"
+        app:lwvMarkColor="@color/Black"
+        app:lwvMarkTextColor="@color/Black"
+        app:lwvIntervalFactor="5"
+        app:lwvMarkRatio=".5"
+        app:lwvCursorSize="12dp"
+        app:lwvMarkTextSize="20dp"
+        app:lwvCenterMarkTextSize="25dp"
+        android:layout_below="@id/level_text"
+        android:layout_centerHorizontal="true"/>
 
     <ListView
         android:id="@+id/fuse_list"
@@ -34,7 +62,7 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/ghost_text1"
         android:layout_alignEnd="@+id/ghost_text_3"
-        android:layout_below="@+id/placeholder_for_wheel"
+        android:layout_below="@+id/wheel"
         android:layout_marginTop="18dp"
         android:layout_toEndOf="@+id/ghost_text_2" />
 
@@ -42,8 +70,8 @@
         android:id="@+id/ghost_text_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/chip_button"
-        android:layout_toStartOf="@+id/chip_button"
+        android:layout_alignBottom="@+id/phantom_chip_button"
+        android:layout_toStartOf="@+id/phantom_chip_button"
         android:text="TextView"
         android:visibility="invisible" />
 
@@ -51,8 +79,8 @@
         android:id="@+id/ghost_text_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/chip_button"
-        android:layout_toEndOf="@+id/chip_button"
+        android:layout_alignBottom="@+id/phantom_chip_button"
+        android:layout_toEndOf="@+id/phantom_chip_button"
         android:text="TextView"
         android:visibility="invisible" />
 
@@ -71,15 +99,15 @@
         android:layout_height="wrap_content"
         android:text="Chips"
         android:layout_alignEnd="@+id/fuse_list"
-        android:layout_below="@+id/placeholder_for_wheel"
+        android:layout_below="@+id/wheel"
         android:layout_toEndOf="@+id/ghost_text_2" />
 
     <TextView
         android:id="@+id/fuse_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/placeholder_for_wheel"
-        android:layout_below="@+id/placeholder_for_wheel"
+        android:layout_alignEnd="@+id/phantom_chip_button"
+        android:layout_below="@+id/wheel"
         android:text="Result" />
 
 </RelativeLayout>

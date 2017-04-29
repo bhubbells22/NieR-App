@@ -21,8 +21,10 @@ import com.example.roberthubbell.nier_app.chip.Chip;
 import com.example.roberthubbell.nier_app.chip.Fusion;
 import com.example.roberthubbell.nier_app.display_adapters.ChipAdapter;
 import com.example.roberthubbell.nier_app.display_adapters.FusionAdapter;
+import com.lantouzi.wheelview.WheelView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class FuseDrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -36,6 +38,9 @@ public class FuseDrawerActivity extends AppCompatActivity
     private FusionAdapter adapter;
     private ArrayList<Fusion> arrayOfFusions;
     private ListView listView;
+
+    public com.lantouzi.wheelview.WheelView wheel;
+    List wheelnums = new ArrayList();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,10 +58,44 @@ public class FuseDrawerActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        level = 0;
         chip_button = (Button) findViewById(R.id.chip_button);
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
         layout = (RelativeLayout) findViewById(R.id.fuse_screen);
+
+        wheel = (com.lantouzi.wheelview.WheelView) findViewById(R.id.wheel);
+
+        wheel.setMinSelectableIndex(0);
+        wheel.setMaxSelectableIndex(8);
+
+        wheelnums.add("0");
+        wheelnums.add("1");
+        wheelnums.add("2");
+        wheelnums.add("3");
+        wheelnums.add("4");
+        wheelnums.add("5");
+        wheelnums.add("6");
+        wheelnums.add("7");
+        wheelnums.add("8");
+
+        wheel.setItems(wheelnums);
+
+        wheel.selectIndex(1);
+
+        level = wheel.getSelectedPosition();
+
+        wheel.setOnWheelItemSelectedListener(new WheelView.OnWheelItemSelectedListener() {
+            @Override
+            public void onWheelItemChanged(WheelView wheelView, int position) {
+
+            }
+
+            @Override
+            public void onWheelItemSelected(WheelView wheelView, int position) {
+                level = wheel.getSelectedPosition();
+                updateFusions();
+
+            }
+        });
 
         // Construct the data source
         arrayOfFusions = new ArrayList<Fusion>();
@@ -84,7 +123,7 @@ public class FuseDrawerActivity extends AppCompatActivity
         updateFusions();
     }
 
-    public void updateFusions(){
+    public void updateFusions() {
         //reset adapter and reget fusions
         adapter.clear();
 

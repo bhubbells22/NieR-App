@@ -1,58 +1,114 @@
 [
     {
-        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_popup_exit.xml"
     },
     {
-        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\Brandon\\.android\\build-cache\\2057716eff45b7c3a9a015fb57890f3e1e9224fe\\output\\res\\anim\\design_snackbar_in.xml"
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_fade_out.xml"
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "C:\\Users\\Brandon\\.android\\build-cache\\2057716eff45b7c3a9a015fb57890f3e1e9224fe\\output\\res\\anim\\design_fab_in.xml"
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\2057716eff45b7c3a9a015fb57890f3e1e9224fe\\output\\res\\anim\\design_fab_out.xml"
     },
     {
-        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\Brandon\\.android\\build-cache\\2057716eff45b7c3a9a015fb57890f3e1e9224fe\\output\\res\\anim\\design_snackbar_out.xml"
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/dbae4d790671139460f94a6ecbec628175d373ad/output/res/anim/design_fab_out.xml"
     },
     {
-        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_popup_enter.xml"
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\Brandon\\.android\\build-cache\\2057716eff45b7c3a9a015fb57890f3e1e9224fe\\output\\res\\anim\\design_fab_out.xml"
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\2057716eff45b7c3a9a015fb57890f3e1e9224fe\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/dbae4d790671139460f94a6ecbec628175d373ad/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/dbae4d790671139460f94a6ecbec628175d373ad/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\2057716eff45b7c3a9a015fb57890f3e1e9224fe\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\2057716eff45b7c3a9a015fb57890f3e1e9224fe\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/dbae4d790671139460f94a6ecbec628175d373ad/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/roberthubbell/.android/build-cache/ad3e86fd4a337e96989787ab50526b4cf90d4a7b/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\7ea77fb91385040d9737aac18f8281ccbdb332e7\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     }
 ]
