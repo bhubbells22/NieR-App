@@ -20,6 +20,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.roberthubbell.nier_app.chip.Chip;
+import com.example.roberthubbell.nier_app.chip.Fusion;
 import com.example.roberthubbell.nier_app.display_adapters.ChipAdapter;
 
 import java.util.ArrayList;
@@ -92,6 +93,7 @@ final public class AddDrawerActivity extends AppCompatActivity
         // Attach the adapter to a ListView
         listView = (ListView) findViewById(R.id.chip_list);
         listView.setAdapter(adapter);
+
 
         chip_button.setOnClickListener(new View.OnClickListener(){
             @Override

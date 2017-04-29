@@ -19,14 +19,67 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <TextView
-        android:id="@+id/ChipDescrptionView"
+    <Button
+        android:id="@+id/placeholder_for_wheel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/chip_button"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="96dp"
-        android:text="Fuse (remove me)"
-        android:textColor="@color/White"/>
+        android:layout_marginTop="16dp"
+        android:text="wheel" />
+
+    <ListView
+        android:id="@+id/fuse_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ghost_text1"
+        android:layout_alignEnd="@+id/ghost_text_3"
+        android:layout_below="@+id/placeholder_for_wheel"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/ghost_text_2" />
+
+    <TextView
+        android:id="@+id/ghost_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/chip_button"
+        android:layout_toStartOf="@+id/chip_button"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/ghost_text_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/chip_button"
+        android:layout_toEndOf="@+id/chip_button"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/ghost_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/chips_to_fuse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chips"
+        android:layout_alignEnd="@+id/fuse_list"
+        android:layout_below="@+id/placeholder_for_wheel"
+        android:layout_toEndOf="@+id/ghost_text_2" />
+
+    <TextView
+        android:id="@+id/fuse_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/placeholder_for_wheel"
+        android:layout_below="@+id/placeholder_for_wheel"
+        android:text="Result" />
 
 </RelativeLayout>

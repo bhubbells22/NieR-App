@@ -14,7 +14,15 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.RelativeLayout;
+
+import com.example.roberthubbell.nier_app.chip.Chip;
+import com.example.roberthubbell.nier_app.chip.Fusion;
+import com.example.roberthubbell.nier_app.display_adapters.ChipAdapter;
+import com.example.roberthubbell.nier_app.display_adapters.FusionAdapter;
+
+import java.util.ArrayList;
 
 public class FuseDrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -22,6 +30,12 @@ public class FuseDrawerActivity extends AppCompatActivity
     public Button chip_button;
     private LayoutInflater layoutInflater;
     private RelativeLayout layout;
+
+    private int level;
+
+    private FusionAdapter adapter;
+    private ArrayList<Fusion> arrayOfFusions;
+    private ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,9 +53,22 @@ public class FuseDrawerActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        level = 0;
         chip_button = (Button) findViewById(R.id.chip_button);
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
         layout = (RelativeLayout) findViewById(R.id.fuse_screen);
+
+        // Construct the data source
+        arrayOfFusions = new ArrayList<Fusion>();
+        // Create the adapter to convert the array to views
+        adapter = new FusionAdapter(this, arrayOfFusions);
+        // Attach the adapter to a ListView
+        listView = (ListView) findViewById(R.id.fuse_list);
+        listView.setAdapter(adapter);
+
+        Chip chipA = new Chip(this, 1, 0, 5);
+        Chip chipB = new Chip(this, 1, 0, 5);
+        adapter.add(new Fusion(this, chipA, chipB));
 
         chip_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,10 +80,94 @@ public class FuseDrawerActivity extends AppCompatActivity
                 selector.ShowSelector(FuseDrawerActivity.this, layout, container);
             }
         });
+
+        updateFusions();
     }
+
+    public void updateFusions(){
+        //reset adapter and reget fusions
+        adapter.clear();
+
+        writeFusions();
+        //get fusions function
+    }
+
+    public void writeFusions() {
+
+        int arraySize = 0;
+        int intialChipSize = 0;
+
+        if (level == 0) {
+            arraySize = 6;
+            intialChipSize = 4;
+        } else if (level == 1) {
+            arraySize = 5;
+            intialChipSize = 5;
+        } else if (level == 2) {
+            arraySize = 4;
+            intialChipSize = 6;
+        } else if (level == 3) {
+            arraySize = 4;
+            intialChipSize = 7;
+        } else if (level == 4) {
+            arraySize = 3;
+            intialChipSize = 9;
+        } else if (level == 5) {
+            arraySize = 3;
+            intialChipSize = 11;
+        } else if (level == 6) {
+            arraySize = 2;
+            intialChipSize = 14;
+        } else if (level == 7) {
+            arraySize = 2;
+            intialChipSize = 17;
+        } else if (level == 8) {
+            arraySize = 1;
+            intialChipSize = 21;
+        }
+
+        Chip chipArray[] = new Chip[arraySize];
+        ArrayList<Fusion> fusionArray = new ArrayList<Fusion>(0);
+
+        //Create an array of all the possible chips
+        for (int i = 0; i < arraySize; i++) {
+            Chip tempChip = new Chip(this, MyProperties.getInstance().chip_id, level, intialChipSize + i);
+            chipArray[i] = tempChip;
+        }
+
+        for(int i = 0; i < arraySize; i++){
+
+            //Is the chip good to fuse with itself? Does it have 2 or more count?
+            if(chipArray[i].inDb() && chipArray[i].selfFuse() && chipArray[i].getCount() > 1)
+                fusionArray.add(new Fusion(this, chipArray[i], chipArray[i]));
+
+            //Compare the chip to all other chips
+            for(int j = 1; j < arraySize; j++){
+
+                //Are they both in the database? Are they different chips?
+                if(chipArray[i].inDb() && chipArray[j].inDb() && chipArray[i] != chipArray[j]){
+                    Fusion tempFusion = new Fusion(this, chipArray[i], chipArray[j]);
+
+                            //Is the result of their fusion a good result?
+                            if(tempFusion.isGoodFusion())
+                                fusionArray.add(tempFusion);
+
+                }
+            }
+        }
+
+        //Add all the accepted fusions onto the list
+        for(int i = 0; i < fusionArray.size(); i++){
+            adapter.add(fusionArray.get(i));
+        }
+
+    }
+
+
 
     public void updateButton(){
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
+        updateFusions();
     }
 
     @Override

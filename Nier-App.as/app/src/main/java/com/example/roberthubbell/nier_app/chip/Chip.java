@@ -78,6 +78,31 @@ public class Chip {
 
     }
 
+    public boolean selfFuse(){
+        //return true if self-fusion is a good fuse
+        if(level == 0)
+            if(size >= 4 && size <= 8)
+                return true;
+        if(level == 1)
+            if(size >= 5 && size<= 8)
+                return true;
+        if(level == 2)
+            if(size >= 6 && size <= 9)
+                return true;
+        if(level == 3)
+            if(size >= 7 && size <= 9)
+                return true;
+        if(level == 4)
+            if(size >= 9 && size <= 11)
+                return true;
+        if(level == 5)
+            if(size >= 11 && size <= 12)
+                return true;
+        if(level == 6)
+            if(size >= 14 && size <= 15)
+                return true;
+        return false;
+    }
     public void increaseCount(){
         //Increase the number of chips a user has
         DatabaseAccess databaseAccess = DatabaseAccess.getInstance(context);
