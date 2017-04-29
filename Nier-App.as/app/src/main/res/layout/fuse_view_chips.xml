@@ -86,9 +86,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="~"
-        android:layout_alignParentTop="true"
+        android:layout_alignTop="@+id/ghost_chipB_size"
         android:layout_toEndOf="@+id/ghost_result_size"
-        android:layout_marginStart="20dp"
         android:layout_alignBottom="@+id/ghost_chipB_size" />
 
 </RelativeLayout>

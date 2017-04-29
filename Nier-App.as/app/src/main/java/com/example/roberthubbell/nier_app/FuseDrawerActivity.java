@@ -21,8 +21,10 @@ import com.example.roberthubbell.nier_app.chip.Chip;
 import com.example.roberthubbell.nier_app.chip.Fusion;
 import com.example.roberthubbell.nier_app.display_adapters.ChipAdapter;
 import com.example.roberthubbell.nier_app.display_adapters.FusionAdapter;
+import com.example.roberthubbell.nier_app.display_adapters.FusionLogAdapter;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class FuseDrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -31,11 +33,15 @@ public class FuseDrawerActivity extends AppCompatActivity
     private LayoutInflater layoutInflater;
     private RelativeLayout layout;
 
-    private int level;
 
     private FusionAdapter adapter;
     private ArrayList<Fusion> arrayOfFusions;
     private ListView listView;
+
+    private ListView listView2;
+    private FusionLogAdapter adapter2;
+
+    private Button undoButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,10 +59,14 @@ public class FuseDrawerActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        level = 0;
+        MyProperties.getInstance().fusionLog.clear();
+
+
         chip_button = (Button) findViewById(R.id.chip_button);
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
         layout = (RelativeLayout) findViewById(R.id.fuse_screen);
+        undoButton = (Button) findViewById(R.id.fuse_undo_button);
+
 
         // Construct the data source
         arrayOfFusions = new ArrayList<Fusion>();
@@ -65,6 +75,12 @@ public class FuseDrawerActivity extends AppCompatActivity
         // Attach the adapter to a ListView
         listView = (ListView) findViewById(R.id.fuse_list);
         listView.setAdapter(adapter);
+
+        // set up stuff for fusion log
+        adapter2 = new FusionLogAdapter(this, MyProperties.getInstance().fusionLog);
+        // Attach to a ListView
+        listView2 = (ListView) findViewById(R.id.fuse_log_list);
+        listView2.setAdapter(adapter2);
 
         Chip chipA = new Chip(this, 1, 0, 5);
         Chip chipB = new Chip(this, 1, 0, 5);
@@ -81,12 +97,33 @@ public class FuseDrawerActivity extends AppCompatActivity
             }
         });
 
+        undoButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(MyProperties.getInstance().fusionLog.size() != 0) {
+                    MyProperties.getInstance().fusionLog.get(MyProperties.getInstance().fusionLog.size() - 1).unfuse();
+                    updateFusions();
+                }
+            }
+        });
         updateFusions();
     }
 
     public void updateFusions(){
         //reset adapter and reget fusions
         adapter.clear();
+        adapter2 = new FusionLogAdapter(this, MyProperties.getInstance().fusionLog);
+
+        if(MyProperties.getInstance().fusionLog.size() == 0) {
+            undoButton.setAlpha(.5f);
+            undoButton.setClickable(false);
+        }
+        else{
+            undoButton.setAlpha(1f);
+            undoButton.setClickable(true);
+        }
+
+        listView2.setSelection(adapter2.getCount() - 1);
 
         writeFusions();
         //get fusions function
@@ -97,31 +134,31 @@ public class FuseDrawerActivity extends AppCompatActivity
         int arraySize = 0;
         int intialChipSize = 0;
 
-        if (level == 0) {
+        if (MyProperties.getInstance().chip_level == 0) {
             arraySize = 6;
             intialChipSize = 4;
-        } else if (level == 1) {
+        } else if (MyProperties.getInstance().chip_level == 1) {
             arraySize = 5;
             intialChipSize = 5;
-        } else if (level == 2) {
+        } else if (MyProperties.getInstance().chip_level == 2) {
             arraySize = 4;
             intialChipSize = 6;
-        } else if (level == 3) {
+        } else if (MyProperties.getInstance().chip_level == 3) {
             arraySize = 4;
             intialChipSize = 7;
-        } else if (level == 4) {
+        } else if (MyProperties.getInstance().chip_level == 4) {
             arraySize = 3;
             intialChipSize = 9;
-        } else if (level == 5) {
+        } else if (MyProperties.getInstance().chip_level == 5) {
             arraySize = 3;
             intialChipSize = 11;
-        } else if (level == 6) {
+        } else if (MyProperties.getInstance().chip_level == 6) {
             arraySize = 2;
             intialChipSize = 14;
-        } else if (level == 7) {
+        } else if (MyProperties.getInstance().chip_level == 7) {
             arraySize = 2;
             intialChipSize = 17;
-        } else if (level == 8) {
+        } else if (MyProperties.getInstance().chip_level == 8) {
             arraySize = 1;
             intialChipSize = 21;
         }
@@ -131,7 +168,7 @@ public class FuseDrawerActivity extends AppCompatActivity
 
         //Create an array of all the possible chips
         for (int i = 0; i < arraySize; i++) {
-            Chip tempChip = new Chip(this, MyProperties.getInstance().chip_id, level, intialChipSize + i);
+            Chip tempChip = new Chip(this, MyProperties.getInstance().chip_id, MyProperties.getInstance().chip_level, intialChipSize + i);
             chipArray[i] = tempChip;
         }
 
@@ -167,6 +204,7 @@ public class FuseDrawerActivity extends AppCompatActivity
 
     public void updateButton(){
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
+        MyProperties.getInstance().fusionLog.clear();
         updateFusions();
     }
 

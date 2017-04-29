@@ -52,7 +52,6 @@ final public class AddDrawerActivity extends AppCompatActivity
 
 
 
-    private int level;
     private int size;
 
     private ChipAdapter adapter;
@@ -107,7 +106,6 @@ final public class AddDrawerActivity extends AppCompatActivity
         });
 
         level_text = (TextView) findViewById(R.id.level_text);
-        level = -1;
         // create instance of buttons
 
         level0 = (Button) findViewById(R.id.level0);
@@ -159,7 +157,7 @@ final public class AddDrawerActivity extends AppCompatActivity
                 */
                 setButtonsBlack();
                 level0.setTextColor(Color.RED);
-                level = 0;
+                MyProperties.getInstance().chip_level = 0;
                 size = 0; //unselect a size
                 writeChips();
             }
@@ -184,7 +182,7 @@ final public class AddDrawerActivity extends AppCompatActivity
                 */
                 setButtonsBlack();
                 level1.setTextColor(Color.RED);
-                level = 1;
+                MyProperties.getInstance().chip_level = 1;
                 size = 0; //unselect a size
                 writeChips();
             }
@@ -208,7 +206,7 @@ final public class AddDrawerActivity extends AppCompatActivity
                 */
                 setButtonsBlack();
                 level2.setTextColor(Color.RED);
-                level = 2;
+                MyProperties.getInstance().chip_level = 2;
                 size = 0; //unselect a size
                 writeChips();
             }
@@ -232,7 +230,7 @@ final public class AddDrawerActivity extends AppCompatActivity
                 */
                 setButtonsBlack();
                 level3.setTextColor(Color.RED);
-                level = 3;
+                MyProperties.getInstance().chip_level = 3;
                 size = 0; //unselect a size
                 writeChips();
             }
@@ -255,7 +253,7 @@ final public class AddDrawerActivity extends AppCompatActivity
                 */
                 setButtonsBlack();
                 level4.setTextColor(Color.RED);
-                level = 4;
+                MyProperties.getInstance().chip_level = 4;
                 size = 0; //unselect a size
                 writeChips();
             }
@@ -278,7 +276,7 @@ final public class AddDrawerActivity extends AppCompatActivity
                 */
                 setButtonsBlack();
                 level5.setTextColor(Color.RED);
-                level = 5;
+                MyProperties.getInstance().chip_level = 5;
                 size = 0; //unselect a size
                 writeChips();
             }
@@ -300,7 +298,7 @@ final public class AddDrawerActivity extends AppCompatActivity
                 */
                 setButtonsBlack();
                 level6.setTextColor(Color.RED);
-                level = 6;
+                MyProperties.getInstance().chip_level = 6;
                 size = 0; //unselect a size
                 writeChips();
             }
@@ -322,7 +320,7 @@ final public class AddDrawerActivity extends AppCompatActivity
                 */
                 setButtonsBlack();
                 level7.setTextColor(Color.RED);
-                level = 7;
+                MyProperties.getInstance().chip_level = 7;
                 size = 0; //unselect a size
                 writeChips();
             }
@@ -343,7 +341,7 @@ final public class AddDrawerActivity extends AppCompatActivity
                 */
                 setButtonsBlack();
                 level8.setTextColor(Color.RED);
-                level = 8;
+                MyProperties.getInstance().chip_level = 8;
                 size = 0; //unselect a size
                 writeChips();
             }
@@ -354,21 +352,21 @@ final public class AddDrawerActivity extends AppCompatActivity
         size0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (level == 0)
+                if (MyProperties.getInstance().chip_level == 0)
                     size = 4;
-                else if (level == 1)
+                else if (MyProperties.getInstance().chip_level == 1)
                     size = 5;
-                else if (level == 2)
+                else if (MyProperties.getInstance().chip_level == 2)
                     size = 6;
-                else if (level == 3)
+                else if (MyProperties.getInstance().chip_level == 3)
                     size = 7;
-                else if (level == 4)
+                else if (MyProperties.getInstance().chip_level == 4)
                     size = 9;
-                else if (level == 5)
+                else if (MyProperties.getInstance().chip_level == 5)
                     size = 11;
-                else if (level == 6)
+                else if (MyProperties.getInstance().chip_level == 6)
                     size = 14;
-                else if (level == 7)
+                else if (MyProperties.getInstance().chip_level == 7)
                     size = 17;
             }
         });
@@ -376,23 +374,23 @@ final public class AddDrawerActivity extends AppCompatActivity
         size1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (level == 0)
+                if (MyProperties.getInstance().chip_level == 0)
                     size = 5;
-                else if (level == 1)
+                else if (MyProperties.getInstance().chip_level == 1)
                     size = 6;
-                else if (level == 2)
+                else if (MyProperties.getInstance().chip_level == 2)
                     size = 7;
-                else if (level == 3)
+                else if (MyProperties.getInstance().chip_level == 3)
                     size = 8;
-                else if (level == 4)
+                else if (MyProperties.getInstance().chip_level == 4)
                     size = 10;
-                else if (level == 5)
+                else if (MyProperties.getInstance().chip_level == 5)
                     size = 12;
-                else if (level == 6)
+                else if (MyProperties.getInstance().chip_level == 6)
                     size = 15;
-                else if (level == 7)
+                else if (MyProperties.getInstance().chip_level == 7)
                     size = 18;
-                else if (level == 8)
+                else if (MyProperties.getInstance().chip_level == 8)
                     size = 21;
             }
         });
@@ -400,17 +398,17 @@ final public class AddDrawerActivity extends AppCompatActivity
         size2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (level == 0)
+                if (MyProperties.getInstance().chip_level == 0)
                     size = 6;
-                else if (level == 1)
+                else if (MyProperties.getInstance().chip_level == 1)
                     size = 7;
-                else if (level == 2)
+                else if (MyProperties.getInstance().chip_level == 2)
                     size = 8;
-                else if (level == 3)
+                else if (MyProperties.getInstance().chip_level == 3)
                     size = 9;
-                else if (level == 4)
+                else if (MyProperties.getInstance().chip_level == 4)
                     size = 11;
-                else if (level == 5)
+                else if (MyProperties.getInstance().chip_level == 5)
                     size = 13;
             }
         });
@@ -418,9 +416,9 @@ final public class AddDrawerActivity extends AppCompatActivity
         size3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (level == 0)
+                if (MyProperties.getInstance().chip_level == 0)
                     size = 7;
-                else if (level == 1)
+                else if (MyProperties.getInstance().chip_level == 1)
                     size = 8;
             }
         });
@@ -428,13 +426,13 @@ final public class AddDrawerActivity extends AppCompatActivity
         size4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (level == 0)
+                if (MyProperties.getInstance().chip_level == 0)
                     size = 8;
-                else if (level == 1)
+                else if (MyProperties.getInstance().chip_level == 1)
                     size = 9;
-                else if (level == 2)
+                else if (MyProperties.getInstance().chip_level == 2)
                     size = 9;
-                else if (level == 3)
+                else if (MyProperties.getInstance().chip_level == 3)
                     size = 10;
             }
         });
@@ -442,7 +440,7 @@ final public class AddDrawerActivity extends AppCompatActivity
         size5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (level == 0)
+                if (MyProperties.getInstance().chip_level == 0)
                     size = 9;
             }
         });
@@ -461,6 +459,25 @@ final public class AddDrawerActivity extends AppCompatActivity
             }
         });
 
+        if (MyProperties.getInstance().chip_level == 0)
+            level0.setTextColor(Color.RED);
+        else if (MyProperties.getInstance().chip_level == 1)
+            level1.setTextColor(Color.RED);
+        else if (MyProperties.getInstance().chip_level == 2)
+            level2.setTextColor(Color.RED);
+        else if (MyProperties.getInstance().chip_level == 3)
+            level3.setTextColor(Color.RED);
+        else if (MyProperties.getInstance().chip_level == 4)
+            level4.setTextColor(Color.RED);
+        else if (MyProperties.getInstance().chip_level == 5)
+            level5.setTextColor(Color.RED);
+        else if (MyProperties.getInstance().chip_level == 6)
+            level6.setTextColor(Color.RED);
+        else if (MyProperties.getInstance().chip_level == 7)
+            level7.setTextColor(Color.RED);
+        else if (MyProperties.getInstance().chip_level == 8)
+            level8.setTextColor(Color.RED);
+        writeChips();
 
 
 
@@ -468,12 +485,12 @@ final public class AddDrawerActivity extends AppCompatActivity
 
     public void updateButton(){
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
-        if(level > -1)
+        if(MyProperties.getInstance().chip_level > -1)
             writeChips();
     }
 
     public void unstage(){
-        level = 0;
+        MyProperties.getInstance().chip_level = 0;
         size = 0;
         size0.setVisibility(View.GONE);
         size1.setVisibility(View.GONE);
@@ -508,39 +525,39 @@ final public class AddDrawerActivity extends AppCompatActivity
         int arraySize = 0;
         int intialChipSize = 0;
 
-        if (level == 0) {
+        if (MyProperties.getInstance().chip_level == 0) {
             arraySize = 6;
             intialChipSize = 4;
         }
-        else if (level == 1) {
+        else if (MyProperties.getInstance().chip_level == 1) {
             arraySize = 5;
             intialChipSize = 5;
         }
-        else if (level == 2) {
+        else if (MyProperties.getInstance().chip_level == 2) {
             arraySize = 4;
             intialChipSize = 6;
         }
-        else if (level == 3) {
+        else if (MyProperties.getInstance().chip_level == 3) {
             arraySize = 4;
             intialChipSize = 7;
         }
-        else if (level == 4) {
+        else if (MyProperties.getInstance().chip_level == 4) {
             arraySize = 3;
             intialChipSize = 9;
         }
-        else if (level == 5) {
+        else if (MyProperties.getInstance().chip_level == 5) {
             arraySize = 3;
             intialChipSize = 11;
         }
-        else if (level == 6) {
+        else if (MyProperties.getInstance().chip_level == 6) {
             arraySize = 2;
             intialChipSize = 14;
         }
-        else if (level == 7) {
+        else if (MyProperties.getInstance().chip_level == 7) {
             arraySize = 2;
             intialChipSize = 17;
         }
-        else if (level == 8) {
+        else if (MyProperties.getInstance().chip_level == 8) {
             arraySize = 1;
             intialChipSize = 21;
         }
@@ -548,16 +565,16 @@ final public class AddDrawerActivity extends AppCompatActivity
         Chip chipArray[] = new Chip[arraySize];
 
         for(int i = 0; i < arraySize; i++){
-            Chip tempChip = new Chip(this, MyProperties.getInstance().chip_id, level, intialChipSize+i);
+            Chip tempChip = new Chip(this, MyProperties.getInstance().chip_id, MyProperties.getInstance().chip_level, intialChipSize+i);
             //if(tempChip.inDb())
-                adapter.add(new Chip(this, MyProperties.getInstance().chip_id, level, intialChipSize+i));
+                adapter.add(new Chip(this, MyProperties.getInstance().chip_id, MyProperties.getInstance().chip_level, intialChipSize+i));
         }
     }
 
     public void increase(){
         //make sure a size has been selected
         if(size > 0) {
-            new Chip(this, MyProperties.getInstance().chip_id, level, size).increaseCount();
+            new Chip(this, MyProperties.getInstance().chip_id, MyProperties.getInstance().chip_level, size).increaseCount();
             writeChips();
         }
     }
@@ -565,7 +582,7 @@ final public class AddDrawerActivity extends AppCompatActivity
     public void decrease(){
         //make sure a size has been selected
         if(size > 0) {
-            new Chip(this, MyProperties.getInstance().chip_id, level, size).decreaseCount();
+            new Chip(this, MyProperties.getInstance().chip_id, MyProperties.getInstance().chip_level, size).decreaseCount();
             writeChips();
         }
     }

@@ -9,6 +9,18 @@
     tools:context="com.example.roberthubbell.nier_app.FuseActivity">
 
     <Button
+        android:id="@+id/fuse_ghost_chip_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Select Chip"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <Button
         android:id="@+id/chip_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,7 +35,7 @@
         android:id="@+id/placeholder_for_wheel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/chip_button"
+        android:layout_below="@+id/fuse_ghost_chip_button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:text="wheel" />
@@ -33,17 +45,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/ghost_text1"
-        android:layout_alignEnd="@+id/ghost_text_3"
         android:layout_below="@+id/placeholder_for_wheel"
         android:layout_marginTop="18dp"
-        android:layout_toEndOf="@+id/ghost_text_2" />
+        android:layout_alignStart="@+id/wide_ghost"
+        android:layout_alignEnd="@+id/wide_ghost" />
 
     <TextView
         android:id="@+id/ghost_text_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/chip_button"
-        android:layout_toStartOf="@+id/chip_button"
+        android:layout_alignBottom="@+id/fuse_ghost_chip_button"
+        android:layout_toStartOf="@+id/fuse_ghost_chip_button"
         android:text="TextView"
         android:visibility="invisible" />
 
@@ -51,8 +63,8 @@
         android:id="@+id/ghost_text_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/chip_button"
-        android:layout_toEndOf="@+id/chip_button"
+        android:layout_alignBottom="@+id/fuse_ghost_chip_button"
+        android:layout_toEndOf="@+id/fuse_ghost_chip_button"
         android:text="TextView"
         android:visibility="invisible" />
 
@@ -81,5 +93,42 @@
         android:layout_alignEnd="@+id/placeholder_for_wheel"
         android:layout_below="@+id/placeholder_for_wheel"
         android:text="Result" />
+
+    <ListView
+        android:id="@+id/fuse_log_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/chips_to_fuse"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/fuse_undo_button"
+        android:layout_above="@+id/ghost_text4" />
+
+    <TextView
+        android:id="@+id/ghost_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fuse_list"
+        android:layout_alignStart="@+id/ghost_text_2"
+        android:layout_marginBottom="152dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/fuse_undo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/fuse_log_list"
+        android:layout_toEndOf="@+id/ghost_text_3"
+        android:text="Undo" />
+
+    <TextView
+        android:id="@+id/wide_ghost"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:visibility="invisible" />
 
 </RelativeLayout>

@@ -12,12 +12,12 @@
         android:id="@+id/chip_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
         android:text="Select Chip"
         tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="148dp"
-        android:layout_marginTop="32dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        tools:layout_editor_absoluteY="148dp" />
 
     <Button
         android:id="@+id/phantom_chip_button"
