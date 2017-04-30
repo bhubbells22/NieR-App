@@ -9,6 +9,18 @@
     tools:context="com.example.roberthubbell.nier_app.FuseActivity">
 
     <Button
+        android:id="@+id/fuse_ghost_chip_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Select Chip"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <Button
         android:id="@+id/chip_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,19 +29,9 @@
         tools:layout_editor_absoluteY="148dp"
         android:layout_marginTop="32dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:id="@+id/phantom_chip_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Select Chip"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="148dp"
-        android:layout_marginTop="32dp"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:visibility="invisible"/>
+        android:layout_below="@+id/fuse_ghost_chip_button"
+        android:visibility="visible"/>
 
     <TextView
         android:id="@+id/level_text"
@@ -38,7 +40,7 @@
         android:textColor="@color/Black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/phantom_chip_button"
+        android:layout_below="@+id/fuse_ghost_chip_button"
         android:layout_centerHorizontal="true" />
 
     <com.lantouzi.wheelview.WheelView
@@ -60,54 +62,78 @@
         android:id="@+id/fuse_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/ghost_text1"
-        android:layout_alignEnd="@+id/ghost_text_3"
-        android:layout_below="@+id/wheel"
-        android:layout_marginTop="18dp"
-        android:layout_toEndOf="@+id/ghost_text_2" />
-
-    <TextView
-        android:id="@+id/ghost_text_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/phantom_chip_button"
-        android:layout_toStartOf="@+id/phantom_chip_button"
-        android:text="TextView"
-        android:visibility="invisible" />
-
-    <TextView
-        android:id="@+id/ghost_text_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/phantom_chip_button"
-        android:layout_toEndOf="@+id/phantom_chip_button"
-        android:text="TextView"
-        android:visibility="invisible" />
-
-    <TextView
-        android:id="@+id/ghost_text1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:text="TextView"
-        android:visibility="invisible" />
+        android:layout_alignEnd="@+id/wheel"
+        android:layout_below="@+id/ghost_text_1"
+        android:layout_above="@+id/ghost_button_whatever"
+        android:layout_alignStart="@+id/wheel" />
 
     <TextView
         android:id="@+id/chips_to_fuse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Chips"
-        android:layout_alignEnd="@+id/fuse_list"
         android:layout_below="@+id/wheel"
-        android:layout_toEndOf="@+id/ghost_text_2" />
+        android:layout_toStartOf="@+id/level_text" />
 
     <TextView
         android:id="@+id/fuse_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/phantom_chip_button"
+        android:text="Result"
         android:layout_below="@+id/wheel"
-        android:text="Result" />
+        android:layout_alignEnd="@+id/level_text" />
+
+    <ListView
+        android:id="@+id/fuse_log_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/fuse_undo_button"
+        android:layout_above="@+id/ghost_text4"
+        android:layout_alignTop="@+id/fuse_list" />
+
+    <TextView
+        android:id="@+id/ghost_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="127dp"
+        android:text="TextView"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/fuse_undo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/fuse_log_list"
+        android:text="Undo" />
+
+    <TextView
+        android:id="@+id/wide_ghost"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/ghost_text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"
+        android:layout_below="@+id/wheel"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/ghost_button_whatever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ghost_text4"
+        android:layout_alignParentBottom="true"
+        android:text="TextView" />
 
 </RelativeLayout>

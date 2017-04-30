@@ -52,8 +52,6 @@ public class AddActivity extends AppCompatActivity {
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
         phantom_button = (Button) findViewById(R.id.phantom_chip_button);
         phantom_button.setVisibility(View.INVISIBLE);
-        add_button = (Button) findViewById(R.id.add_button);
-        remove_button = (Button) findViewById(R.id.remove_button);
         layout = (RelativeLayout) findViewById(R.id.add_screen);
 
 

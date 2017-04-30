@@ -1,26 +1,14 @@
 [
     {
-        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\background.png",
+        "source": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\mipmap-xxhdpi\\background.png"
     },
     {
-        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
-        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/background.png",
-        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/mipmap-xxhdpi/background.png"
-    },
-    {
-        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\background.png",
-        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\mipmap-xxhdpi\\background.png"
-    },
-    {
-        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
-        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     }
 ]

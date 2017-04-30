@@ -1,18 +1,10 @@
 [
     {
-        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/roberthubbell/.android/build-cache/dbae4d790671139460f94a6ecbec628175d373ad/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Brandon\\.android\\build-cache\\2057716eff45b7c3a9a015fb57890f3e1e9224fe\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
-        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\2057716eff45b7c3a9a015fb57890f3e1e9224fe\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/roberthubbell/.android/build-cache/dbae4d790671139460f94a6ecbec628175d373ad/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
-        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/C:\\Users\\Brandon\\.android\\build-cache\\2057716eff45b7c3a9a015fb57890f3e1e9224fe\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Brandon\\.android\\build-cache\\2057716eff45b7c3a9a015fb57890f3e1e9224fe\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     }
 ]

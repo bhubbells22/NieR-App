@@ -2,6 +2,8 @@ package com.example.roberthubbell.nier_app.chip;
 
 import android.content.Context;
 
+import com.example.roberthubbell.nier_app.MyProperties;
+
 /**
  * Created by Brandon on 4/28/2017.
  */
@@ -65,6 +67,14 @@ public class Fusion {
         chipA.decreaseCount();
         chipB.decreaseCount();
         result.increaseCount();
+        MyProperties.getInstance().fusionLog.add(this);
+    }
+
+    public void unfuse(){
+        chipA.increaseCount();
+        chipB.increaseCount();
+        result.decreaseCount();
+        MyProperties.getInstance().fusionLog.remove(this);
     }
 
     public Chip getChipA() {

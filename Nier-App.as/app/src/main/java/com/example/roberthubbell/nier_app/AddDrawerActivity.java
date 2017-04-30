@@ -39,7 +39,6 @@ final public class AddDrawerActivity extends AppCompatActivity
     public com.lantouzi.wheelview.WheelView wheel;
     List wheelnums = new ArrayList();
 
-    private int level;
     private int size;
 
     private ChipAdapter adapter;
@@ -69,8 +68,6 @@ final public class AddDrawerActivity extends AppCompatActivity
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
         phantom_button = (Button) findViewById(R.id.phantom_chip_button);
         phantom_button.setVisibility(View.INVISIBLE);
-        add_button = (Button) findViewById(R.id.add_button);
-        remove_button = (Button) findViewById(R.id.remove_button);
         layout = (RelativeLayout) findViewById(R.id.add_screen);
 
         // Construct the data source
@@ -112,46 +109,51 @@ final public class AddDrawerActivity extends AppCompatActivity
 
         wheel.setItems(wheelnums);
 
-        wheel.selectIndex(1);
+        wheel.selectIndex(MyProperties.getInstance().chip_level);
 
-        level = wheel.getSelectedPosition();
-
+        MyProperties.getInstance().chip_level = wheel.getSelectedPosition();
         writeChips();
+
 
         wheel.setOnWheelItemSelectedListener(new WheelView.OnWheelItemSelectedListener() {
             @Override
             public void onWheelItemChanged(WheelView wheelView, int position) {
-
+                if (MyProperties.getInstance().chip_level == 0)
+                    size = 5;
+                else if (MyProperties.getInstance().chip_level == 1)
+                    size = 6;
+                else if (MyProperties.getInstance().chip_level == 2)
+                    size = 7;
+                else if (MyProperties.getInstance().chip_level == 3)
+                    size = 8;
+                else if (MyProperties.getInstance().chip_level == 4)
+                    size = 10;
+                else if (MyProperties.getInstance().chip_level == 5)
+                    size = 12;
+                else if (MyProperties.getInstance().chip_level == 6)
+                    size = 15;
+                else if (MyProperties.getInstance().chip_level == 7)
+                    size = 18;
+                else if (MyProperties.getInstance().chip_level == 8)
+                    size = 21;
             }
-
-            @Override
             public void onWheelItemSelected(WheelView wheelView, int position) {
-                level = wheel.getSelectedPosition();
+                MyProperties.getInstance().chip_level = wheel.getSelectedPosition();
                 writeChips();
 
             }
-        });
+        });}
 
 
-        add_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                increase();
-            }
-        });
 
-        remove_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                decrease();
-            }
-        });
 
-    }
+
+
+
 
     public void updateButton(){
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
-        if(level > -1)
+        if(MyProperties.getInstance().chip_level > -1)
             writeChips();
     }
 
@@ -166,39 +168,39 @@ final public class AddDrawerActivity extends AppCompatActivity
         int arraySize = 0;
         int intialChipSize = 0;
 
-        if (level == 0) {
+        if (MyProperties.getInstance().chip_level == 0) {
             arraySize = 6;
             intialChipSize = 4;
         }
-        else if (level == 1) {
+        else if (MyProperties.getInstance().chip_level == 1) {
             arraySize = 5;
             intialChipSize = 5;
         }
-        else if (level == 2) {
+        else if (MyProperties.getInstance().chip_level == 2) {
             arraySize = 4;
             intialChipSize = 6;
         }
-        else if (level == 3) {
+        else if (MyProperties.getInstance().chip_level == 3) {
             arraySize = 4;
             intialChipSize = 7;
         }
-        else if (level == 4) {
+        else if (MyProperties.getInstance().chip_level == 4) {
             arraySize = 3;
             intialChipSize = 9;
         }
-        else if (level == 5) {
+        else if (MyProperties.getInstance().chip_level == 5) {
             arraySize = 3;
             intialChipSize = 11;
         }
-        else if (level == 6) {
+        else if (MyProperties.getInstance().chip_level == 6) {
             arraySize = 2;
             intialChipSize = 14;
         }
-        else if (level == 7) {
+        else if (MyProperties.getInstance().chip_level == 7) {
             arraySize = 2;
             intialChipSize = 17;
         }
-        else if (level == 8) {
+        else if (MyProperties.getInstance().chip_level == 8) {
             arraySize = 1;
             intialChipSize = 21;
         }
@@ -206,16 +208,16 @@ final public class AddDrawerActivity extends AppCompatActivity
         Chip chipArray[] = new Chip[arraySize];
 
         for(int i = 0; i < arraySize; i++){
-            Chip tempChip = new Chip(this, MyProperties.getInstance().chip_id, level, intialChipSize+i);
+            Chip tempChip = new Chip(this, MyProperties.getInstance().chip_id, MyProperties.getInstance().chip_level, intialChipSize+i);
             //if(tempChip.inDb())
-                adapter.add(new Chip(this, MyProperties.getInstance().chip_id, level, intialChipSize+i));
+                adapter.add(new Chip(this, MyProperties.getInstance().chip_id, MyProperties.getInstance().chip_level, intialChipSize+i));
         }
     }
 
     public void increase(){
         //make sure a size has been selected
         if(size > 0) {
-            new Chip(this, MyProperties.getInstance().chip_id, level, size).increaseCount();
+            new Chip(this, MyProperties.getInstance().chip_id, MyProperties.getInstance().chip_level, size).increaseCount();
             writeChips();
         }
     }
@@ -223,7 +225,7 @@ final public class AddDrawerActivity extends AppCompatActivity
     public void decrease(){
         //make sure a size has been selected
         if(size > 0) {
-            new Chip(this, MyProperties.getInstance().chip_id, level, size).decreaseCount();
+            new Chip(this, MyProperties.getInstance().chip_id, MyProperties.getInstance().chip_level, size).decreaseCount();
             writeChips();
         }
     }

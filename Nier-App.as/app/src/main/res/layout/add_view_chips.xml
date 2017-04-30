@@ -8,10 +8,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Size"
-        android:textSize="40sp"
+        android:textSize="20sp"
         android:textColor="@color/Red"
-        android:layout_alignParentTop="true"
-        />
+        android:layout_alignBottom="@+id/ghost_button1"
+        android:layout_alignStart="@+id/ghost_button1" />
 
     <TextView
         android:id="@+id/chipCount"
@@ -20,7 +20,8 @@
         android:text="Count"
         android:textSize="20sp"
         android:layout_alignBottom="@+id/ghost_button1"
-        android:layout_toEndOf="@+id/ghost_button1" />
+        android:layout_toEndOf="@+id/ghost_button1"
+        android:layout_marginStart="16dp" />
 
     <Button
         android:id="@+id/minusButton"
@@ -29,7 +30,7 @@
         android:layout_height="wrap_content"
         android:text="-"
         android:layout_alignBottom="@+id/chipCount"
-        android:layout_toEndOf="@+id/chipCount" />
+        android:layout_alignEnd="@+id/ghost" />
 
     <Button
         android:id="@+id/plusButton"
@@ -37,7 +38,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="+"
-        android:layout_alignBottom="@+id/ghost_button1"
+        android:layout_alignBaseline="@+id/minusButton"
+        android:layout_alignBottom="@+id/minusButton"
         android:layout_toEndOf="@+id/minusButton" />
 
     <Button
@@ -45,9 +47,19 @@
         style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:text="But"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp" />
+
+    <TextView
+        android:id="@+id/ghost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/chipCount"
+        android:layout_toEndOf="@+id/chipCount"
+        android:text="TextView"
         android:visibility="invisible" />
 
 </RelativeLayout>
