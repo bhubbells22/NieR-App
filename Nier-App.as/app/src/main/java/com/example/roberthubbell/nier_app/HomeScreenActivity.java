@@ -2,6 +2,7 @@ package com.example.roberthubbell.nier_app;
 
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,6 +17,7 @@ public class HomeScreenActivity extends AppCompatActivity {
     private Button add_button;
     private Button fuse_button;
     private Button info_button;
+    private Drawable plus_drawable;
 
 
     private Button test_button;
@@ -31,6 +33,7 @@ public class HomeScreenActivity extends AppCompatActivity {
         add_button = (Button)findViewById(R.id.add_button);
         fuse_button = (Button)findViewById(R.id.fuse_button);
         info_button = (Button)findViewById(R.id.info_button);
+        plus_drawable = getResources().getDrawable(R.drawable.plus_sign);
 
         Typeface font = Typeface.createFromAsset(getAssets(), "Benguiat.ttf");
         app_name.setTypeface(font);
@@ -71,6 +74,7 @@ public class HomeScreenActivity extends AppCompatActivity {
             }
         });
 
+        plus_drawable.setAlpha(20);
 
 
     }

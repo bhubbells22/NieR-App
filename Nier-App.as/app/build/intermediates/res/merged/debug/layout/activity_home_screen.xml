@@ -45,7 +45,9 @@
         android:text="@string/add_button"
         android:textAllCaps="false"
         android:textSize="30sp"
-        android:typeface="serif" />
+        android:typeface="serif"
+        android:drawableBottom="@drawable/plus_sign"
+        android:drawable="@android:color/transparent" />
 
     <Button
         android:id="@+id/fuse_button"

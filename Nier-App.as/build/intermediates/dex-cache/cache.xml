@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justin Temp\Desktop\Repositories\NieR-App\Nier-App.as\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="abe4b998c8f3a2753c02b8d2d59304b3c7378fbb">
+        <dex dex="C:\Users\Justin Temp\Desktop\Repositories\NieR-App\Nier-App.as\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_657e447b3e4f931cfddd20d4acd3da5bc1d918d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justin Temp\.android\build-cache\61a86b14000440dc26d13813366a8dc5c619e7d8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ff938ea10be21ac55d38e3d5073b81cc6917841">
+        <dex dex="C:\Users\Justin Temp\Desktop\Repositories\NieR-App\Nier-App.as\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_32cf9c92ef5ab2743cccd3dfac42375f518d131f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justin Temp\Desktop\Repositories\NieR-App\Nier-App.as\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Justin Temp\Desktop\Repositories\NieR-App\Nier-App.as\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_aa06b341bad708fa55c9a8eceb2baa4900ae2825\classes.dex" />
+    </item>
+
+</items>

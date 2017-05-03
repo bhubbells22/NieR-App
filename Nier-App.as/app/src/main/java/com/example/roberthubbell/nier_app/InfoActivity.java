@@ -16,6 +16,8 @@ import org.w3c.dom.Text;
 public class InfoActivity extends AppCompatActivity {
 
     public Button chip_button;
+    public Button phantom_button;
+
     private LayoutInflater layoutInflater;
     private RelativeLayout layout;
 
@@ -33,6 +35,8 @@ public class InfoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_info);
         chip_button = (Button) findViewById(R.id.chip_button);
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
+        phantom_button = (Button) findViewById(R.id.phantom_chip_button);
+        phantom_button.setVisibility(View.INVISIBLE);
         layout = (RelativeLayout) findViewById(R.id.info_screen);
 
         chipDescription = (TextView) findViewById(R.id.ChipDescriptionView);
