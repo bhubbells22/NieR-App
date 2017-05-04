@@ -74,9 +74,6 @@ public class HomeScreenActivity extends AppCompatActivity {
             }
         });
 
-        plus_drawable.setAlpha(20);
-
-
     }
 
 }

@@ -1,4 +1,4 @@
-#Wed May 03 14:54:44 PDT 2017
+#Thu May 04 00:22:35 PDT 2017
 base.0=C\:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_657e447b3e4f931cfddd20d4acd3da5bc1d918d3
 renamed.1=classes.dex
 renamed.0=classes2.dex
