@@ -12,6 +12,17 @@
         "source": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\mipmap-xxhdpi\\background.png"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "C:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\plus_sign.png",
+        "source": "C:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\mipmap-xxhdpi\\plus_sign.png"
+    },
+    {
+        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\plus_sign.png",
+        "source": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\mipmap-xxhdpi\\plus_sign.png"
+    },
+    {
+>>>>>>> e82588c9e4111b0f9d9aa0e5d2d2e780030d9ff5
         "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },

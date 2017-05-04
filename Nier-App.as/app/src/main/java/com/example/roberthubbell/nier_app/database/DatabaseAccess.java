@@ -135,4 +135,25 @@ public class DatabaseAccess {
         database.execSQL("INSERT INTO user_chip (chip_id, chip_level, chip_size, chip_count) VALUES (" + id + ", " + level + ", " + size + ", 0)");
     }
 
+    public String getEnemyName(int id){
+        String name="";
+        Cursor cursor = database.rawQuery("SELECT enemy_name from enemy where enemy_id = " + id, null);
+        cursor.moveToFirst();
+        name = cursor.getString(0);
+        cursor.close();
+        return name;
+
+    }
+
+    public String getLocationName(int id){
+        String name="";
+        Cursor cursor = database.rawQuery("select location_description from location " +
+                "join enemy on enemy.location_id = location.location_id " +
+                "where enemy_id = " + id, null);
+        cursor.moveToFirst();
+        name = cursor.getString(0);
+        cursor.close();
+        return name;
+    }
+
 }
