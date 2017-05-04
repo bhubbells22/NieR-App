@@ -10,6 +10,18 @@
 
 
     <Button
+        android:id="@+id/ghost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Select Chip"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <Button
         android:id="@+id/chip_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,7 +37,7 @@
         android:id="@+id/ChipDescriptionView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/chip_button"
+        android:layout_below="@+id/ghost"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="51dp"
         android:text="Chip Description" />
@@ -38,7 +50,7 @@
         android:layout_marginTop="36dp"
         android:text="Max Effect"
         android:layout_below="@+id/ChipDescriptionView"
-        android:layout_toStartOf="@+id/chip_button" />
+        android:layout_toStartOf="@+id/ghost" />
 
     <TextView
         android:textColor="@color/Black"
@@ -48,7 +60,7 @@
         android:text="Optimal Setup"
         android:layout_alignBaseline="@+id/MaxEffectView"
         android:layout_alignBottom="@+id/MaxEffectView"
-        android:layout_toEndOf="@+id/chip_button" />
+        android:layout_toEndOf="@+id/ghost" />
 
 
     <ImageView
@@ -100,7 +112,7 @@
         android:textStyle="bold"
         android:layout_marginTop="58dp"
         android:layout_below="@+id/EffectView"
-        android:layout_toStartOf="@+id/ChipDescriptionView" />
+        android:layout_toStartOf="@+id/ghost" />
 
     <TextView
         android:id="@+id/LocationNameView"

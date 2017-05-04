@@ -78,6 +78,24 @@ public class Chip {
 
     }
 
+    public String getEnemyName(){
+        DatabaseAccess databaseAccess = DatabaseAccess.getInstance(context);
+        databaseAccess.open();
+
+        String enemyName = databaseAccess.getEnemyName(enemy_id);
+        databaseAccess.close();
+        return enemyName;
+    }
+
+    public String getLocationName(){
+        DatabaseAccess databaseAccess = DatabaseAccess.getInstance(context);
+        databaseAccess.open();
+
+        String locationName = databaseAccess.getLocationName(enemy_id);
+        databaseAccess.close();
+        return locationName;
+    }
+
     public boolean selfFuse(){
         //return true if self-fusion is a good fuse
         if(level == 0)

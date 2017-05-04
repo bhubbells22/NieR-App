@@ -1,6 +1,8 @@
 package com.example.roberthubbell.nier_app;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -16,10 +18,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.roberthubbell.nier_app.chip.Chip;
+
+import java.net.URL;
 
 public class InfoDrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -32,6 +37,10 @@ public class InfoDrawerActivity extends AppCompatActivity
     private TextView maxEffect;
     private TextView optimalSetup;
     private TextView enemyName;
+    private TextView locationName;
+    private ImageView enemyImage;
+    private ImageView locationImage;
+
 
     private Chip chip;
     private Chip test;
@@ -57,9 +66,10 @@ public class InfoDrawerActivity extends AppCompatActivity
         layout = (RelativeLayout) findViewById(R.id.info_screen);
 
         chipDescription = (TextView) findViewById(R.id.ChipDescriptionView);
-        maxEffect = (TextView) findViewById(R.id.MaxEffectView);
-        optimalSetup = (TextView) findViewById(R.id.OptimalSetupView);
+        maxEffect = (TextView) findViewById(R.id.EffectView);
+        optimalSetup = (TextView) findViewById(R.id.OptimalView);
         enemyName = (TextView) findViewById(R.id.EnemyNameView);
+        locationName = (TextView) findViewById(R.id.LocationNameView);
 
         chip_button.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -79,8 +89,13 @@ public class InfoDrawerActivity extends AppCompatActivity
     public void updateButton(){
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
         chip = new Chip(this, MyProperties.getInstance().chip_id);
+        optimalSetup.setText(chip.getBest_setup());
         chipDescription.setText(chip.getDescription());
-        enemyName.setText(Integer.toString(test.getCount()));
+        enemyName.setText(chip.getEnemyName());
+        locationName.setText(chip.getLocationName());
+        maxEffect.setText(chip.getMax_effect());
+        // bImage = BitmapFactory.decodeResource(this.getResources(), R.raw.robot);
+        //enemyImage.setImageBitmap(bImage);
 
     }
 
