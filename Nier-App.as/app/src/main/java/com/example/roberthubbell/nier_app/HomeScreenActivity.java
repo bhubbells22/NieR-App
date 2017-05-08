@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.roberthubbell.nier_app.network.GetChips;
@@ -14,9 +15,11 @@ import com.example.roberthubbell.nier_app.network.GetChips;
 public class HomeScreenActivity extends AppCompatActivity {
 
     private TextView app_name;
-    private Button add_button;
-    private Button fuse_button;
-    private Button info_button;
+    private TextView add_name;
+    private TextView fuse_name;
+    private ImageButton add_button;
+    private ImageButton fuse_button;
+    private ImageButton info_button;
     private Drawable plus_drawable;
 
 
@@ -30,9 +33,11 @@ public class HomeScreenActivity extends AppCompatActivity {
         //task.execute();
 
         app_name = (TextView)findViewById(R.id.title_text);
-        add_button = (Button)findViewById(R.id.add_button);
-        fuse_button = (Button)findViewById(R.id.fuse_button);
-        info_button = (Button)findViewById(R.id.info_button);
+        add_name = (TextView)findViewById(R.id.add_name);
+        fuse_name = (TextView)findViewById(R.id.fuse_name);
+        add_button = (ImageButton) findViewById(R.id.add_button);
+        fuse_button = (ImageButton)findViewById(R.id.fuse_button);
+        info_button = (ImageButton) findViewById(R.id.info_button);
         plus_drawable = getResources().getDrawable(R.drawable.plus_sign);
 
         Typeface font = Typeface.createFromAsset(getAssets(), "Benguiat.ttf");
