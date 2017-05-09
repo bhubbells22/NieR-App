@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.roberthubbell.nier_app.AddDrawerActivity;
@@ -37,8 +38,8 @@ public class ChipAdapter extends ArrayAdapter<Chip> {
         // Lookup view for data population
         TextView chipSize = (TextView) convertView.findViewById(R.id.chipSize);
         TextView chipCount = (TextView) convertView.findViewById(R.id.chipCount);
-        Button   plusButton = (Button) convertView.findViewById(R.id.plusButton);
-        Button   minusButton = (Button) convertView.findViewById(R.id.minusButton);
+        ImageButton plusButton = (ImageButton) convertView.findViewById(R.id.plusButton);
+        ImageButton  minusButton = (ImageButton) convertView.findViewById(R.id.minusButton);
 
         plusButton.setOnClickListener(new View.OnClickListener() {
             @Override

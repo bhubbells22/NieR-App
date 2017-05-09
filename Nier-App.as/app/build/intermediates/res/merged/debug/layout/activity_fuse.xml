@@ -12,13 +12,13 @@
         android:id="@+id/fuse_ghost_chip_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
         android:text="Select Chip"
         android:visibility="invisible"
         tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="148dp" />
+        tools:layout_editor_absoluteY="148dp"
+        android:layout_alignBaseline="@+id/chip_button"
+        android:layout_alignBottom="@+id/chip_button"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/chip_button"
@@ -27,11 +27,9 @@
         android:text="Select Chip"
         tools:layout_editor_absoluteX="141dp"
         tools:layout_editor_absoluteY="148dp"
-        android:layout_marginTop="32dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/fuse_ghost_chip_button"
-        android:visibility="visible"/>
+        android:visibility="visible"
+        android:layout_below="@+id/wide_ghost"
+        android:layout_alignStart="@+id/fuse_ghost_chip_button" />
 
     <TextView
         android:id="@+id/level_text"
@@ -62,17 +60,18 @@
         android:id="@+id/fuse_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/wheel"
         android:layout_alignEnd="@+id/wheel"
-        android:layout_below="@+id/ghost_text_1"
-        android:layout_above="@+id/ghost_button_whatever"
-        android:layout_alignStart="@+id/wheel" />
+        android:layout_below="@+id/chips_to_fuse" />
 
     <TextView
         android:id="@+id/chips_to_fuse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Chips"
-        android:layout_below="@+id/wheel"
+        android:layout_alignBaseline="@+id/fuse_result"
+        android:layout_alignBottom="@+id/fuse_result"
         android:layout_toStartOf="@+id/level_text" />
 
     <TextView
@@ -80,7 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Result"
-        android:layout_below="@+id/wheel"
+        android:layout_below="@+id/ghost_text_1"
         android:layout_alignEnd="@+id/level_text" />
 
     <ListView
@@ -88,9 +87,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
-        android:layout_alignStart="@+id/fuse_undo_button"
-        android:layout_above="@+id/ghost_text4"
-        android:layout_alignTop="@+id/fuse_list" />
+        android:layout_alignTop="@+id/fuse_list"
+        android:layout_below="@+id/fuse_undo_button"
+        android:layout_toEndOf="@+id/fuse_list"
+        android:layout_alignStart="@+id/fuse_undo_button" />
 
     <TextView
         android:id="@+id/ghost_text4"
@@ -101,14 +101,6 @@
         android:visibility="invisible"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true" />
-
-    <Button
-        android:id="@+id/fuse_undo_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/fuse_log_list"
-        android:text="Undo" />
 
     <TextView
         android:id="@+id/wide_ghost"
@@ -134,6 +126,26 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/ghost_text4"
         android:layout_alignParentBottom="true"
-        android:text="TextView" />
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/fuse_undo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fuse_list"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/magic_spacer"
+        android:background="@null"
+        app:srcCompat="@mipmap/undo" />
+
+    <TextView
+        android:id="@+id/magic_spacer"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView"
+        android:visibility="invisible" />
 
 </RelativeLayout>
