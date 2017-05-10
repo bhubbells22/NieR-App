@@ -29,18 +29,10 @@
 
     <ImageButton
         android:id="@+id/info_button"
-<<<<<<< HEAD
-        android:layout_width="61dp"
-        android:layout_height="61dp"
-        android:layout_above="@+id/test_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="22dp"
-=======
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_weight="1"
         android:adjustViewBounds="true"
->>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
         android:background="@drawable/roundedbutton"
         android:scaleType="fitCenter"
         android:src="@drawable/info_icon"

@@ -3352,21 +3352,12 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0e006c;
         public static final int action_mode_bar_stub=0x7f0e006b;
         public static final int action_mode_close_button=0x7f0e004e;
-<<<<<<< HEAD
-        public static final int action_text=0x7f0e00d6;
-        public static final int actions=0x7f0e00e3;
-        public static final int activity_chooser_view_content=0x7f0e004f;
-        public static final int add=0x7f0e0026;
-        public static final int add_button=0x7f0e0099;
-=======
-        public static final int action_settings=0x7f0e00f7;
         public static final int action_text=0x7f0e00dd;
         public static final int actions=0x7f0e00ea;
         public static final int activity_chooser_view_content=0x7f0e004f;
         public static final int add=0x7f0e0026;
         public static final int add_button=0x7f0e009c;
         public static final int add_name=0x7f0e009b;
->>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
         public static final int add_screen=0x7f0e007e;
         public static final int alertTitle=0x7f0e0063;
         public static final int alignBounds=0x7f0e0041;
@@ -3438,18 +3429,11 @@ containing a value of this type.
         public static final int fill_horizontal=0x7f0e003d;
         public static final int fill_vertical=0x7f0e0033;
         public static final int fixed=0x7f0e004a;
-<<<<<<< HEAD
-        public static final int fuse_button=0x7f0e009a;
-        public static final int fuse_ghost_chip_button=0x7f0e008a;
-        public static final int fuse_list=0x7f0e008b;
-        public static final int fuse_log_list=0x7f0e0090;
-=======
         public static final int fuse_button=0x7f0e009e;
         public static final int fuse_ghost_chip_button=0x7f0e008b;
         public static final int fuse_list=0x7f0e008d;
         public static final int fuse_log_list=0x7f0e0091;
         public static final int fuse_name=0x7f0e009d;
->>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
         public static final int fuse_result=0x7f0e008f;
         public static final int fuse_screen=0x7f0e008a;
         public static final int fuse_undo_button=0x7f0e0092;
@@ -3472,32 +3456,19 @@ containing a value of this type.
         public static final int icon_group=0x7f0e00eb;
         public static final int ifRoom=0x7f0e0047;
         public static final int image=0x7f0e0051;
-<<<<<<< HEAD
-        public static final int inDB=0x7f0e00d2;
-        public static final int info=0x7f0e00e1;
-        public static final int info_button=0x7f0e0096;
-        public static final int info_screen=0x7f0e009b;
-=======
         public static final int inDB=0x7f0e00d9;
         public static final int info=0x7f0e00e8;
         public static final int info_button=0x7f0e0098;
         public static final int info_screen=0x7f0e009f;
->>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
         public static final int item_touch_helper_previous_elevation=0x7f0e0005;
         public static final int l_title=0x7f0e00a8;
         public static final int largeLabel=0x7f0e00c4;
         public static final int largeSpacer=0x7f0e00a2;
         public static final int left=0x7f0e0034;
         public static final int level_text=0x7f0e0081;
-<<<<<<< HEAD
-        public static final int line1=0x7f0e00e6;
-        public static final int line3=0x7f0e00e8;
-        public static final int linearLayout=0x7f0e0098;
-=======
         public static final int line1=0x7f0e00ed;
         public static final int line3=0x7f0e00ef;
         public static final int linearLayout=0x7f0e009a;
->>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
         public static final int listMode=0x7f0e0018;
         public static final int list_item=0x7f0e0053;
         public static final int location_name=0x7f0e00ac;
@@ -3578,17 +3549,10 @@ containing a value of this type.
         public static final int submit_area=0x7f0e007a;
         public static final int support_button=0x7f0e00b5;
         public static final int tabMode=0x7f0e001a;
-<<<<<<< HEAD
-        public static final int test_button=0x7f0e0097;
-        public static final int test_screen=0x7f0e00d0;
-        public static final int text=0x7f0e00e9;
-        public static final int text2=0x7f0e00e7;
-=======
         public static final int test_button=0x7f0e0099;
         public static final int test_screen=0x7f0e00d7;
         public static final int text=0x7f0e00f0;
         public static final int text2=0x7f0e00ee;
->>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
         public static final int textSpacerNoButtons=0x7f0e005d;
         public static final int textSpacerNoTitle=0x7f0e005c;
         public static final int textView=0x7f0e0086;
@@ -3720,16 +3684,11 @@ containing a value of this type.
     }
     public static final class mipmap {
         public static final int background=0x7f030000;
-<<<<<<< HEAD
-        public static final int ic_launcher=0x7f030001;
-        public static final int ic_launcher_round=0x7f030002;
-=======
         public static final int circle_minus=0x7f030001;
         public static final int circle_plus=0x7f030002;
         public static final int ic_launcher=0x7f030003;
         public static final int ic_launcher_round=0x7f030004;
         public static final int undo=0x7f030005;
->>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
     }
     public static final class raw {
         public static final int map=0x7f070000;

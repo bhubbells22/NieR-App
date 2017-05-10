@@ -775,20 +775,7 @@ int drawable notify_panel_notification_icon_bg 0x7f020070
 int drawable plus_sign 0x7f020071
 int drawable roundedbutton 0x7f020072
 int drawable side_nav_bar 0x7f020073
-<<<<<<< HEAD
-int id ChipDescriptionView 0x7f0e009d
-int id EffectView 0x7f0e00a3
-int id EnemyImageView 0x7f0e00a0
-int id EnemyNameView 0x7f0e00a2
-int id LocationImageView 0x7f0e00a1
-int id LocationNameView 0x7f0e00a5
-int id MaxEffectView 0x7f0e009e
-int id OptimalSetupView 0x7f0e009f
-int id OptimalView 0x7f0e00a4
-int id action0 0x7f0e00d7
-=======
 int id action0 0x7f0e00de
->>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
 int id action_bar 0x7f0e006f
 int id action_bar_activity_content 0x7f0e0000
 int id action_bar_container 0x7f0e006e
@@ -805,21 +792,12 @@ int id action_menu_presenter 0x7f0e0003
 int id action_mode_bar 0x7f0e006c
 int id action_mode_bar_stub 0x7f0e006b
 int id action_mode_close_button 0x7f0e004e
-<<<<<<< HEAD
-int id action_text 0x7f0e00d6
-int id actions 0x7f0e00e3
-int id activity_chooser_view_content 0x7f0e004f
-int id add 0x7f0e0026
-int id add_button 0x7f0e0099
-=======
-int id action_settings 0x7f0e00f7
 int id action_text 0x7f0e00dd
 int id actions 0x7f0e00ea
 int id activity_chooser_view_content 0x7f0e004f
 int id add 0x7f0e0026
 int id add_button 0x7f0e009c
 int id add_name 0x7f0e009b
->>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
 int id add_screen 0x7f0e007e
 int id alertTitle 0x7f0e0063
 int id alignBounds 0x7f0e0041
@@ -891,18 +869,11 @@ int id fill 0x7f0e003c
 int id fill_horizontal 0x7f0e003d
 int id fill_vertical 0x7f0e0033
 int id fixed 0x7f0e004a
-<<<<<<< HEAD
-int id fuse_button 0x7f0e009a
-int id fuse_ghost_chip_button 0x7f0e008a
-int id fuse_list 0x7f0e008b
-int id fuse_log_list 0x7f0e0090
-=======
 int id fuse_button 0x7f0e009e
 int id fuse_ghost_chip_button 0x7f0e008b
 int id fuse_list 0x7f0e008d
 int id fuse_log_list 0x7f0e0091
 int id fuse_name 0x7f0e009d
->>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
 int id fuse_result 0x7f0e008f
 int id fuse_screen 0x7f0e008a
 int id fuse_undo_button 0x7f0e0092
@@ -925,32 +896,19 @@ int id icon 0x7f0e0054
 int id icon_group 0x7f0e00eb
 int id ifRoom 0x7f0e0047
 int id image 0x7f0e0051
-<<<<<<< HEAD
-int id inDB 0x7f0e00d2
-int id info 0x7f0e00e1
-int id info_button 0x7f0e0096
-int id info_screen 0x7f0e009b
-=======
 int id inDB 0x7f0e00d9
 int id info 0x7f0e00e8
 int id info_button 0x7f0e0098
 int id info_screen 0x7f0e009f
->>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
 int id item_touch_helper_previous_elevation 0x7f0e0005
 int id l_title 0x7f0e00a8
 int id largeLabel 0x7f0e00c4
 int id largeSpacer 0x7f0e00a2
 int id left 0x7f0e0034
 int id level_text 0x7f0e0081
-<<<<<<< HEAD
-int id line1 0x7f0e00e6
-int id line3 0x7f0e00e8
-int id linearLayout 0x7f0e0098
-=======
 int id line1 0x7f0e00ed
 int id line3 0x7f0e00ef
 int id linearLayout 0x7f0e009a
->>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
 int id listMode 0x7f0e0018
 int id list_item 0x7f0e0053
 int id location_name 0x7f0e00ac
@@ -1031,17 +989,10 @@ int id submenuarrow 0x7f0e0069
 int id submit_area 0x7f0e007a
 int id support_button 0x7f0e00b5
 int id tabMode 0x7f0e001a
-<<<<<<< HEAD
-int id test_button 0x7f0e0097
-int id test_screen 0x7f0e00d0
-int id text 0x7f0e00e9
-int id text2 0x7f0e00e7
-=======
 int id test_button 0x7f0e0099
 int id test_screen 0x7f0e00d7
 int id text 0x7f0e00f0
 int id text2 0x7f0e00ee
->>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
 int id textSpacerNoButtons 0x7f0e005d
 int id textSpacerNoTitle 0x7f0e005c
 int id textView 0x7f0e0086
@@ -1165,16 +1116,11 @@ int menu activity_add_drawer_drawer 0x7f0f0000
 int menu activity_fuse_drawer_drawer 0x7f0f0001
 int menu activity_info_drawer_drawer 0x7f0f0002
 int mipmap background 0x7f030000
-<<<<<<< HEAD
-int mipmap ic_launcher 0x7f030001
-int mipmap ic_launcher_round 0x7f030002
-=======
 int mipmap circle_minus 0x7f030001
 int mipmap circle_plus 0x7f030002
 int mipmap ic_launcher 0x7f030003
 int mipmap ic_launcher_round 0x7f030004
 int mipmap undo 0x7f030005
->>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
 int raw map 0x7f070000
 int raw robot 0x7f070001
 int string abc_action_bar_home_description 0x7f080000
@@ -1611,11 +1557,7 @@ int style Widget_Design_NavigationView 0x7f0a017b
 int style Widget_Design_ScrimInsetsFrameLayout 0x7f0a017c
 int style Widget_Design_Snackbar 0x7f0a017d
 int style Widget_Design_TabLayout 0x7f0a0001
-<<<<<<< HEAD
 int style Widget_Design_TextInputLayout 0x7f0a017e
-=======
-int style Widget_Design_TextInputLayout 0x7f0a017d
->>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
 int[] styleable ActionBar { 0x7f010002, 0x7f01002f, 0x7f010030, 0x7f010031, 0x7f010032, 0x7f010033, 0x7f010034, 0x7f010035, 0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039, 0x7f01003a, 0x7f01003b, 0x7f01003c, 0x7f01003d, 0x7f01003e, 0x7f01003f, 0x7f010040, 0x7f010041, 0x7f010042, 0x7f010043, 0x7f010044, 0x7f010045, 0x7f010046, 0x7f010047, 0x7f010048, 0x7f010049, 0x7f01008c }
 int styleable ActionBar_background 10
 int styleable ActionBar_backgroundSplit 12
