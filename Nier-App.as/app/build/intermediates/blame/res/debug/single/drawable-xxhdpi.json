@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/drawable-xxhdpi/fuse_icon.png",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/drawable-xxhdpi/fuse_icon.png"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/drawable-xxhdpi/info_icon.png",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/drawable-xxhdpi/info_icon.png"
+    },
+    {
+        "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/drawable-xxhdpi/plus_sign.png",
+        "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/drawable-xxhdpi/plus_sign.png"
+    }
+]

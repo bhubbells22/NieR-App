@@ -9,4 +9,6 @@
     <color name="Gold">#D4AF37</color>
     <color name="DarkGrey">#A9A9A9</color>
     <color name="Red">#ff0000</color>
+    <color name="black_alpha_40">#11000000</color>
+
 </resources>
