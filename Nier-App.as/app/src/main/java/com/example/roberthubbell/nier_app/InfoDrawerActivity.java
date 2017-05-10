@@ -65,11 +65,11 @@ public class InfoDrawerActivity extends AppCompatActivity
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
         layout = (RelativeLayout) findViewById(R.id.info_screen);
 
-        chipDescription = (TextView) findViewById(R.id.ChipDescriptionView);
-        maxEffect = (TextView) findViewById(R.id.EffectView);
-        optimalSetup = (TextView) findViewById(R.id.OptimalView);
-        enemyName = (TextView) findViewById(R.id.EnemyNameView);
-        locationName = (TextView) findViewById(R.id.LocationNameView);
+        chipDescription = (TextView) findViewById(R.id.chip_description);
+        maxEffect = (TextView) findViewById(R.id.max_effect);
+        optimalSetup = (TextView) findViewById(R.id.optimal_setup);
+        enemyName = (TextView) findViewById(R.id.enemy_name);
+        locationName = (TextView) findViewById(R.id.location_name);
 
         chip_button.setOnClickListener(new View.OnClickListener(){
             @Override

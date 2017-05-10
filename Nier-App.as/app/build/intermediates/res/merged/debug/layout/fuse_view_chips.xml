@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
@@ -82,14 +83,15 @@
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/ghost_chipB_size" />
 
-    <Button
+    <ImageButton
         android:id="@+id/fuse_button"
-        style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="~"
+        app:srcCompat="@drawable/fuse_icon"
+        android:background="@null"
         android:layout_alignTop="@+id/ghost_chipB_size"
         android:layout_toEndOf="@+id/ghost_result_size"
+        android:layout_marginStart="14dp"
         android:layout_alignBottom="@+id/ghost_chipB_size" />
 
 </RelativeLayout>

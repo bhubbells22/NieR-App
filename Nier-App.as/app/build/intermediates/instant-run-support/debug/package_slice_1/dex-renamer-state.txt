@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Fri May 05 11:28:30 PDT 2017
 base.0=/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1
+=======
+#Sun May 07 21:16:30 PDT 2017
+base.0=C\:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
+>>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
 renamed.0=classes.dex
 file.0=/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex

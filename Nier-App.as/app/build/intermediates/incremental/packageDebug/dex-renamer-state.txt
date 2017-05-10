@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Tue May 09 17:28:24 PDT 2017
 base.0=/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_50c3bf1502cdfbf3d090e285129421bcb4782cd8
 renamed.1=classes2.dex
@@ -5,3 +6,9 @@ renamed.0=classes.dex
 file.1=/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_719c1af08906d2250a638c99b228924345a4ee86/classes.dex
 base.1=/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_719c1af08906d2250a638c99b228924345a4ee86
 file.0=/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_50c3bf1502cdfbf3d090e285129421bcb4782cd8/classes.dex
+=======
+#Tue May 09 11:41:26 PDT 2017
+base.0=C\:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+>>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039

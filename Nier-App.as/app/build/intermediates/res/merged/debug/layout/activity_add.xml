@@ -12,23 +12,24 @@
         android:id="@+id/chip_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
         android:text="Select Chip"
         tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="148dp" />
+        tools:layout_editor_absoluteY="148dp"
+        android:layout_alignBaseline="@+id/phantom_chip_button"
+        android:layout_alignBottom="@+id/phantom_chip_button"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/phantom_chip_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select Chip"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="148dp"
-        android:layout_marginTop="32dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignStart="@+id/chip_button"
+        android:layout_marginTop="16dp"
+        android:text="Select Chip"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="148dp" />
 
      
 
@@ -61,11 +62,9 @@
         android:id="@+id/chip_list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/wheel"
-        android:layout_marginTop="14dp"
+        android:layout_alignTop="@+id/textView3"
         android:layout_alignStart="@+id/wheel"
-        android:layout_alignEnd="@+id/wheel"
-        android:layout_above="@+id/ghost_button_1" />
+        android:layout_alignEnd="@+id/wheel" />
 
     <TextView
         android:id="@+id/ghost_button_1"
@@ -73,23 +72,34 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:text="TextView" />
+        android:text="TextView"
+        android:visibility="invisible" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/chip_list"
+        android:text="Size"
         android:layout_below="@+id/wheel"
-        android:layout_marginStart="12dp"
-        android:text="Size" />
+        android:layout_toStartOf="@+id/chip_button"
+        android:layout_marginTop="15dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Quantity"
-        android:layout_below="@+id/wheel"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:text="TextView"
+        android:visibility="invisible" />
 
 </RelativeLayout>

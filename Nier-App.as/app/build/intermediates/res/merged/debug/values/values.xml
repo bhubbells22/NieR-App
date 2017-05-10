@@ -762,6 +762,7 @@
         <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
+<<<<<<< HEAD
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -769,6 +770,13 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
     </style>
+=======
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+            <item name="android:textColorPrimary">@color/Black</item>
+            <item name="colorPrimary">@android:color/transparent</item>
+            <item name="windowActionBarOverlay">true</item>
+        </style>
+>>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>

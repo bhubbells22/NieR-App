@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 
@@ -44,7 +45,7 @@ public class FuseDrawerActivity extends AppCompatActivity
     private ListView listView2;
     private FusionLogAdapter adapter2;
 
-    private Button undoButton;
+    private ImageButton undoButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,7 +68,7 @@ public class FuseDrawerActivity extends AppCompatActivity
         chip_button = (Button) findViewById(R.id.chip_button);
         chip_button.setText(MyProperties.getInstance().chips[MyProperties.getInstance().chip_id]);
         layout = (RelativeLayout) findViewById(R.id.fuse_screen);
-        undoButton = (Button) findViewById(R.id.fuse_undo_button);
+        undoButton = (ImageButton) findViewById(R.id.fuse_undo_button);
 
 
         wheel = (com.lantouzi.wheelview.WheelView) findViewById(R.id.wheel);
@@ -152,7 +153,7 @@ public class FuseDrawerActivity extends AppCompatActivity
         adapter2 = new FusionLogAdapter(this, MyProperties.getInstance().fusionLog);
 
         if(MyProperties.getInstance().fusionLog.size() == 0) {
-            undoButton.setAlpha(.5f);
+            undoButton.setAlpha(0f);
             undoButton.setClickable(false);
         }
         else{
@@ -236,7 +237,6 @@ public class FuseDrawerActivity extends AppCompatActivity
         }
 
     }
-
 
 
     public void updateButton(){

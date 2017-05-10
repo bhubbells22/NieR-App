@@ -1,10 +1,27 @@
 [
     {
+<<<<<<< HEAD
         "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/raw/robot.png",
         "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/raw/robot.png"
     },
     {
         "merged": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/res/merged/debug/raw/map.jpg",
         "source": "/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/res/raw/map.jpg"
+=======
+        "merged": "C:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\raw\\robot.png",
+        "source": "C:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\raw\\robot.png"
+    },
+    {
+        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\raw\\map.jpg",
+        "source": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\raw\\map.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\raw\\robot.png",
+        "source": "C:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\raw\\robot.png"
+    },
+    {
+        "merged": "C:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\res\\merged\\debug\\raw\\map.jpg",
+        "source": "C:\\Users\\Justin Temp\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\src\\main\\res\\raw\\map.jpg"
+>>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
     }
 ]

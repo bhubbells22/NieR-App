@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
@@ -10,7 +11,8 @@
         android:text="Size"
         android:textSize="20sp"
         android:textColor="@color/Red"
-        android:layout_alignBottom="@+id/ghost_button1"
+        android:layout_alignBaseline="@+id/chipCount"
+        android:layout_alignBottom="@+id/chipCount"
         android:layout_alignStart="@+id/ghost_button1" />
 
     <TextView
@@ -19,28 +21,10 @@
         android:layout_height="wrap_content"
         android:text="Count"
         android:textSize="20sp"
+        android:layout_marginStart="16dp"
         android:layout_alignBottom="@+id/ghost_button1"
         android:layout_toEndOf="@+id/ghost_button1"
-        android:layout_marginStart="16dp" />
-
-    <Button
-        android:id="@+id/minusButton"
-        style="@style/Widget.AppCompat.Button.Small"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-"
-        android:layout_alignBottom="@+id/chipCount"
-        android:layout_alignEnd="@+id/ghost" />
-
-    <Button
-        android:id="@+id/plusButton"
-        style="@style/Widget.AppCompat.Button.Small"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="+"
-        android:layout_alignBaseline="@+id/minusButton"
-        android:layout_alignBottom="@+id/minusButton"
-        android:layout_toEndOf="@+id/minusButton" />
+        android:layout_marginBottom="11dp" />
 
     <Button
         android:id="@+id/ghost_button1"
@@ -49,17 +33,35 @@
         android:layout_height="wrap_content"
         android:text="But"
         android:visibility="invisible"
+        android:layout_marginStart="18dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="18dp" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/ghost"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="20dp"
+        android:layout_height="0dp"
         android:layout_alignTop="@+id/chipCount"
         android:layout_toEndOf="@+id/chipCount"
         android:text="TextView"
         android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/plusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:srcCompat="@mipmap/circle_plus"
+        android:layout_alignTop="@+id/minusButton"
+        android:layout_toEndOf="@+id/minusButton" />
+
+    <ImageButton
+        android:id="@+id/minusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:srcCompat="@mipmap/circle_minus"
+        android:layout_alignBottom="@+id/ghost_button1"
+        android:layout_toEndOf="@+id/ghost" />
 
 </RelativeLayout>

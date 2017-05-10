@@ -1,6 +1,10 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
 ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:2:1-38:12
+=======
+ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:2:1-39:12
+>>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
 	package
 		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:3:5-49
 		INJECTED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml
@@ -18,6 +22,7 @@ ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/A
 	android:name
 		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:5:22-64
 application
+<<<<<<< HEAD
 ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:7:5-36:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/roberthubbell/.android/build-cache/9311cfb29984473f6a889d3ec9b7e4a870f5e8a5/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:gridlayout-v7:25.3.1] /Users/roberthubbell/.android/build-cache/b9ab592d40b42ecbb208bbabbf37b0dfaf29a1a9/output/AndroidManifest.xml:26:5-20
@@ -100,6 +105,90 @@ ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/A
 		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:35:13-56
 	android:name
 		ADDED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml:34:13-47
+=======
+ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:7:5-37:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Brandon\.android\build-cache\26be5b45392a059eca9655b92a617b66d3f65ad5\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:gridlayout-v7:25.3.1] C:\Users\Brandon\.android\build-cache\8cd0eb6c6ffa830fa4176934ce516dd8e73a44c1\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Brandon\.android\build-cache\2057716eff45b7c3a9a015fb57890f3e1e9224fe\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Brandon\.android\build-cache\aa8aba88b850e012205de01dc2e69e06b19aa2f4\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Brandon\.android\build-cache\7ea77fb91385040d9737aac18f8281ccbdb332e7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Brandon\.android\build-cache\1c4261151cfeb8166599a61271da148167b8cafe\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Brandon\.android\build-cache\f85aa86dcf793913c6456d5a190f62d9b5a8544a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Brandon\.android\build-cache\8afd0c53b6446fd7a204e9bdab52720e35ba816e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Brandon\.android\build-cache\6056cca45838f345e195f958cbd9e1b7d6fcef9a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Brandon\.android\build-cache\ca11a7be85186fd146434412f0461520a2c0456e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Brandon\.android\build-cache\70e2fe79e1fdeefe4d8b5f5d1413f18650a3908b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Brandon\.android\build-cache\78f80327e3b58b4f3cf2f6e712416782638792f7\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Brandon\.android\build-cache\61f2499da68f7781aef30a8f3bdd89190128fcd8\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:11:9-25
+	android:supportsRtl
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:12:9-54
+	android:allowBackup
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.example.roberthubbell.nier_app.HomeScreenActivity
+ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:15:19-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.example.roberthubbell.nier_app.AddActivity
+ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:22:9-49
+	android:name
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:22:19-46
+activity#com.example.roberthubbell.nier_app.FuseActivity
+ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:23:9-50
+	android:name
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:23:19-47
+activity#com.example.roberthubbell.nier_app.InfoActivity
+ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:24:9-50
+	android:name
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:24:19-47
+activity#com.example.roberthubbell.nier_app.ListView
+ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:25:9-46
+	android:name
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:25:19-43
+activity#com.example.roberthubbell.nier_app.test
+ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:26:9-42
+	android:name
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:26:19-39
+activity#com.example.roberthubbell.nier_app.TestActivity
+ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:27:9-50
+	android:name
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:27:19-47
+activity#com.example.roberthubbell.nier_app.AddDrawerActivity
+ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:28:9-30:59
+	android:theme
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:29:13-46
+activity#com.example.roberthubbell.nier_app.FuseDrawerActivity
+ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:31:9-33:59
+	android:theme
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:32:13-47
+activity#com.example.roberthubbell.nier_app.InfoDrawerActivity
+ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:34:9-36:68
+	android:theme
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:36:13-56
+	android:name
+		ADDED from C:\Users\Brandon\Desktop\School\CS-370\Repositories\NieR-App\Nier-App.as\app\src\main\AndroidManifest.xml:35:13-47
+>>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
 uses-sdk
 INJECTED from /Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/roberthubbell/.android/build-cache/9311cfb29984473f6a889d3ec9b7e4a870f5e8a5/output/AndroidManifest.xml:5:5-7:41

@@ -33,97 +33,121 @@
         tools:layout_editor_absoluteY="148dp" />
 
     <TextView
-        android:textColor="@color/Black"
-        android:id="@+id/ChipDescriptionView"
-        android:layout_width="wrap_content"
+        android:id="@+id/medSpacer"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ghost"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp"
-        android:text="Chip Description" />
+        android:text="TextView"
+        android:visibility="invisible" />
 
     <TextView
-        android:textColor="@color/Black"
-        android:id="@+id/MaxEffectView"
+        android:id="@+id/largeSpacer"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/medSpacer"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/chip_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:text="Max Effect"
-        android:layout_below="@+id/ChipDescriptionView"
-        android:layout_toStartOf="@+id/ghost" />
+        android:layout_below="@+id/chip_button"
+        android:layout_marginTop="17dp"
+        android:text="Increases movement speed"
+        android:layout_alignEnd="@+id/os_title"
+        android:layout_alignStart="@+id/me_title" />
 
     <TextView
+        android:id="@+id/me_title"
         android:textColor="@color/Black"
-        android:id="@+id/OptimalSetupView"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/largeSpacer"
+        android:layout_below="@+id/ghost_spacer"
+        android:layout_marginTop="36dp"
+        android:text="Max EFfect" />
+
+    <TextView
+        android:id="@+id/os_title"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Optimal Setup"
-        android:layout_alignBaseline="@+id/MaxEffectView"
-        android:layout_alignBottom="@+id/MaxEffectView"
-        android:layout_toEndOf="@+id/ghost" />
-
-
-    <ImageView
-        android:id="@+id/EnemyImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/btn_dialog"
-        android:layout_marginEnd="26dp"
-        android:layout_alignTop="@+id/LocationImageView"
-        android:layout_alignEnd="@+id/OptimalSetupView" />
-
-    <ImageView
-        android:id="@+id/LocationImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/btn_dialog"
-        android:layout_below="@+id/EnemyNameView"
-        android:layout_alignStart="@+id/EffectView"
-        android:layout_marginTop="86dp" />
+        android:layout_alignBaseline="@+id/me_title"
+        android:layout_alignBottom="@+id/me_title"
+        android:layout_alignEnd="@+id/largeSpacer" />
 
     <TextView
-        android:id="@+id/EffectView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/MaxEffectView"
-        android:layout_below="@+id/MaxEffectView"
-        android:layout_marginEnd="17dp"
-        android:layout_marginTop="11dp"
-        android:text="100%"
-        android:textColor="@color/Black" />
-
-    <TextView
-        android:id="@+id/OptimalView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Level#(Quantity)"
+        android:id="@+id/e_title"
         android:textColor="@color/Black"
-        android:layout_alignBaseline="@+id/EffectView"
-        android:layout_alignBottom="@+id/EffectView"
-        android:layout_alignStart="@+id/OptimalSetupView" />
-
-    <TextView
-        android:id="@+id/EnemyNameView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enemy Name"
-        android:textColor="@color/Black"
-        android:textSize="15sp"
         android:textStyle="bold"
-        android:layout_marginTop="58dp"
-        android:layout_below="@+id/EffectView"
-        android:layout_toStartOf="@+id/ghost" />
-
-    <TextView
-        android:id="@+id/LocationNameView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/EnemyNameView"
-        android:layout_alignBottom="@+id/EnemyNameView"
-        android:layout_alignStart="@+id/OptimalView"
-        android:text="Location View"
+        android:layout_below="@+id/me_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:text="Enemy" />
+
+    <TextView
+        android:id="@+id/l_title"
         android:textColor="@color/Black"
-        android:textSize="15sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:text="Location" />
+
+    <TextView
+        android:id="@+id/max_effect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="100%"
+        android:layout_below="@+id/me_title"
+        android:layout_toStartOf="@+id/medSpacer" />
+
+    <TextView
+        android:id="@+id/optimal_setup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/max_effect"
+        android:layout_alignBottom="@+id/max_effect"
+        android:layout_toEndOf="@+id/ghost"
+        android:text="(8)x1" />
+
+    <TextView
+        android:id="@+id/enemy_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Small Biped" />
+
+    <TextView
+        android:id="@+id/location_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="City Ruins (Cave)"
+        android:layout_below="@+id/l_title"
+        android:layout_toEndOf="@+id/me_title" />
+
+    <TextView
+        android:id="@+id/ghost_spacer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/l_title"
+        android:layout_alignTop="@+id/chip_description"
+        android:text="TextView"
+        android:visibility="invisible" />
+
 
 </RelativeLayout>

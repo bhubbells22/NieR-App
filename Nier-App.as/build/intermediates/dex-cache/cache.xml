@@ -7,12 +7,21 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
+<<<<<<< HEAD
         sha1="4a90b249d90111d0995a3dbf869529d251d3ffca">
         <dex dex="/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_50c3bf1502cdfbf3d090e285129421bcb4782cd8/classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/roberthubbell/Repositories/NieR-App/Nier-App.as/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+=======
+        sha1="74aaab370a496acaa56340e639d84692f83f154f">
+        <dex dex="C:\Users\Justin Temp\Desktop\Repositories\NieR-App\Nier-App.as\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_657e447b3e4f931cfddd20d4acd3da5bc1d918d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justin Temp\Desktop\Repositories\NieR-App\Nier-App.as\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+>>>>>>> b1a1f126b52aecb364375ac760fe135f68eb9039
         jumboMode="true"
         optimize="true"
         revision="25.0.2"

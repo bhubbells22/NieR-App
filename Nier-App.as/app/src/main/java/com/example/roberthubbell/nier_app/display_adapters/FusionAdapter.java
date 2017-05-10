@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.roberthubbell.nier_app.AddDrawerActivity;
@@ -39,7 +40,7 @@ public class FusionAdapter extends ArrayAdapter<Fusion> {
         TextView chipASize = (TextView) convertView.findViewById(R.id.chipA_size);
         TextView chipBSize = (TextView) convertView.findViewById(R.id.chipB_size);
         TextView resultSize = (TextView) convertView.findViewById(R.id.result_size);
-        Button   fuseButton = (Button) convertView.findViewById(R.id.fuse_button);
+        ImageButton fuseButton = (ImageButton) convertView.findViewById(R.id.fuse_button);
 
         fuseButton.setOnClickListener(new View.OnClickListener() {
             @Override
