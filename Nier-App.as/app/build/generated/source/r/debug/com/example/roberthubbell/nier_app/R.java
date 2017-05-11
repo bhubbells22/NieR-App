@@ -3414,7 +3414,7 @@ containing a value of this type.
         public static final int design_navigation_view=0x7f0e00ca;
         public static final int disableHome=0x7f0e001b;
         public static final int drawer_layout=0x7f0e0088;
-        public static final int e_title=0x7f0e00a7;
+        public static final int e_title=0x7f0e00a8;
         public static final int edit_query=0x7f0e0071;
         public static final int end=0x7f0e0032;
         public static final int end_padder=0x7f0e00f1;
@@ -3444,7 +3444,7 @@ containing a value of this type.
         public static final int ghost_chipA_size=0x7f0e00d0;
         public static final int ghost_chipB_size=0x7f0e00d3;
         public static final int ghost_result_size=0x7f0e00d6;
-        public static final int ghost_spacer=0x7f0e00a6;
+        public static final int ghost_spacer=0x7f0e00a7;
         public static final int ghost_text4=0x7f0e0093;
         public static final int ghost_text_1=0x7f0e0090;
         public static final int hacking_button=0x7f0e00b6;
@@ -3461,7 +3461,7 @@ containing a value of this type.
         public static final int info_button=0x7f0e0098;
         public static final int info_screen=0x7f0e009f;
         public static final int item_touch_helper_previous_elevation=0x7f0e0005;
-        public static final int l_title=0x7f0e00a8;
+        public static final int l_title=0x7f0e00a6;
         public static final int largeLabel=0x7f0e00c4;
         public static final int largeSpacer=0x7f0e00a2;
         public static final int left=0x7f0e0034;
@@ -3474,7 +3474,7 @@ containing a value of this type.
         public static final int location_name=0x7f0e00ac;
         public static final int magic_spacer=0x7f0e0095;
         public static final int masked=0x7f0e00f3;
-        public static final int max_effect=0x7f0e00a9;
+        public static final int max_effect=0x7f0e00aa;
         public static final int me_title=0x7f0e00a5;
         public static final int medSpacer=0x7f0e00a1;
         public static final int media_actions=0x7f0e00e1;
@@ -3493,7 +3493,7 @@ containing a value of this type.
         public static final int notification_background=0x7f0e00e9;
         public static final int notification_main_column=0x7f0e00e4;
         public static final int notification_main_column_container=0x7f0e00e3;
-        public static final int optimal_setup=0x7f0e00aa;
+        public static final int optimal_setup=0x7f0e00a9;
         public static final int os_title=0x7f0e00a4;
         public static final int packed=0x7f0e0012;
         public static final int parallax=0x7f0e0038;
