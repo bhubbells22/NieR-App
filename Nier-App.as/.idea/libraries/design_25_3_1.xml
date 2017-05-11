@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="design-25.3.1">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/58cbdc7d123c8e869969d740ed0faa0354e11ff2/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/58cbdc7d123c8e869969d740ed0faa0354e11ff2/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/2057716eff45b7c3a9a015fb57890f3e1e9224fe/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/2057716eff45b7c3a9a015fb57890f3e1e9224fe/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/design/25.3.1/design-25.3.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/design/25.3.1/design-25.3.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
