@@ -81,7 +81,7 @@
         android:layout_height="wrap_content"
         android:text="Size"
         android:layout_below="@+id/wheel"
-        android:layout_toStartOf="@+id/chip_button"
+        android:layout_toEndOf="@+id/phantom_text"
         android:layout_marginTop="15dp" />
 
     <TextView
@@ -101,5 +101,14 @@
         android:layout_below="@+id/textView"
         android:text="TextView"
         android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/phantom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView3" />
 
 </RelativeLayout>
