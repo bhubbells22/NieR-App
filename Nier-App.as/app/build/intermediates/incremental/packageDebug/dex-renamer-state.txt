@@ -1,4 +1,7 @@
-#Tue May 09 22:48:40 PDT 2017
-base.0=C\:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\Brandon\\Desktop\\School\\CS-370\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Wed May 10 22:20:56 PDT 2017
+base.0=C\:\\Users\\Justin\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_686ef5f4d807e8b422393645e42c1e107eda0359
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Justin\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8c915d15898c94a01d5d290cd353270295e7e5bd\\classes.dex
+base.1=C\:\\Users\\Justin\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8c915d15898c94a01d5d290cd353270295e7e5bd
+file.0=C\:\\Users\\Justin\\Desktop\\Repositories\\NieR-App\\Nier-App.as\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_686ef5f4d807e8b422393645e42c1e107eda0359\\classes.dex
